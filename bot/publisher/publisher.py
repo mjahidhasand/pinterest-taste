@@ -71,7 +71,7 @@ def publish_once():
     ahead = int(git("rev-list", "--count", f"origin/{BRANCH}..HEAD").strip() or 0)
     if not ahead:
         return "nothing to publish"
-    git("pull", "-q", "--rebase", "origin", BRANCH)
+    git("pull", "-q", "--rebase", "--autostash", "origin", BRANCH)  # collector may be mid-write
     git("push", "-q", "origin", f"HEAD:{BRANCH}")
     return f"pushed {ahead} commit(s)" + (f": {msg}" if msg else "")
 
