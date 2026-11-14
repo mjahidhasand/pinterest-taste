@@ -6,7 +6,9 @@ RUN apt-get update \
 
 COPY publisher/publisher.py publisher/build_catalog.py /app/
 COPY common /app/common
-RUN mkdir -p /state/thumbs /state/profile && chown -R 1000:1000 /state
+# ssh refuses to run for a uid with no passwd entry, so give uid 1000 a name.
+RUN useradd -u 1000 -M -d /tmp -s /usr/sbin/nologin bot \
+ && mkdir -p /state/thumbs /state/profile && chown -R 1000:1000 /state
 
 USER 1000:1000
 ENV HOME=/tmp \

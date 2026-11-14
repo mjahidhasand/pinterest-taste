@@ -5,6 +5,8 @@ FROM mcr.microsoft.com/playwright/python:v1.65.2-noble
 RUN apt-get update \
  && apt-get install -y --no-install-recommends xvfb x11vnc novnc websockify fluxbox \
  && rm -rf /var/lib/apt/lists/*
+# The image ships browsers only; the Python package must match their version.
+RUN pip install --no-cache-dir --break-system-packages playwright==1.65.2
 
 COPY collector/entrypoint.sh /app/entrypoint.sh
 COPY collector/collector.py /app/collector.py

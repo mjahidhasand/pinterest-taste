@@ -56,20 +56,24 @@ def publish_once():
     build()
     git("add", "--", "skill/")
     paths = [p for p in git("diff", "--cached", "--name-only").splitlines() if p]
-    if not paths:
+    msg = None
+    if paths:
+        store = ps.read_json(ps.PINS, {"pins": {}})
+        problems = staged_problems(paths, set(store["pins"]))
+        if problems:
+            git("reset", "-q")
+            return "BLOCKED: " + " | ".join(problems[:10])
+        cats = sorted({Path(p).stem for p in paths if "/references/" in p and p.endswith(".md")} - {"README"})
+        msg = f"bot: {len(store['pins'])} pins" + (f"; updated {', '.join(cats)}" if cats else "")
+        git("commit", "-q", "-m", msg)
+    # Also push commits left behind by an earlier failed push (each was validated when made).
+    git("fetch", "-q", "origin", BRANCH)
+    ahead = int(git("rev-list", "--count", f"origin/{BRANCH}..HEAD").strip() or 0)
+    if not ahead:
         return "nothing to publish"
-    store = ps.read_json(ps.PINS, {"pins": {}})
-    problems = staged_problems(paths, set(store["pins"]))
-    if problems:
-        git("reset", "-q")
-        return "BLOCKED: " + " | ".join(problems[:10])
-    analysis = ps.read_json(ps.ANALYSIS, {"categories": {}})
-    cats = sorted({Path(p).stem for p in paths if "/references/" in p and p.endswith(".md")} - {"README"})
-    msg = f"bot: {len(store['pins'])} pins" + (f"; updated {', '.join(cats)}" if cats else "")
-    git("commit", "-q", "-m", msg)
     git("pull", "-q", "--rebase", "origin", BRANCH)
     git("push", "-q", "origin", f"HEAD:{BRANCH}")
-    return f"pushed: {msg} ({len(analysis.get('categories', {}))} categories analyzed)"
+    return f"pushed {ahead} commit(s)" + (f": {msg}" if msg else "")
 
 
 def main():
