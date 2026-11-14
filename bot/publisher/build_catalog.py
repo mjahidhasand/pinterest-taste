@@ -1,0 +1,110 @@
+"""Builds the two generated, human-facing files:
+
+  skill/pinterest-taste/catalog.html       browsable pins by category. Images
+      are rendered by Pinterest's own embed widget, so no image is stored.
+  skill/pinterest-taste/references/README.md   index of pattern files.
+"""
+import datetime as dt
+import html
+import json
+import sys
+
+sys.path.insert(0, "/app/common")
+import pinstore as ps  # noqa: E402
+
+CATALOG = ps.SKILL / "catalog.html"
+INDEX = ps.REFS / "README.md"
+
+PAGE = """<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Pinterest Taste Catalog</title>
+<style>
+:root{--bg:#fafaf9;--fg:#1c1917;--muted:#78716c;--line:#e7e5e4;--chip:#f5f5f4;--accent:#e60023}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#0c0a09;--fg:#fafaf9;--muted:#a8a29e;--line:#292524;--chip:#1c1917}}
+:root[data-theme=dark]{--bg:#0c0a09;--fg:#fafaf9;--muted:#a8a29e;--line:#292524;--chip:#1c1917}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.5 system-ui,sans-serif}
+header{padding:24px 16px 8px;max-width:1280px;margin:auto}h1{margin:0 0 4px;font-size:24px}p{margin:0;color:var(--muted)}
+nav{display:flex;flex-wrap:wrap;gap:8px;padding:12px 16px;max-width:1280px;margin:auto;position:sticky;top:0;background:var(--bg);border-bottom:1px solid var(--line)}
+button{font:inherit;border:1px solid var(--line);background:var(--chip);color:var(--fg);border-radius:999px;padding:6px 12px;cursor:pointer;min-height:36px}
+button[aria-pressed=true]{background:var(--fg);color:var(--bg)}button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+main{max-width:1280px;margin:auto;padding:16px;columns:4 260px;column-gap:16px}
+.pin{break-inside:avoid;margin:0 0 16px;border:1px solid var(--line);border-radius:12px;padding:8px;background:var(--chip)}
+.pin a.t{display:block;color:var(--fg);font-size:13px;margin-top:6px;text-decoration:none}.pin a.t:hover{text-decoration:underline}
+#more{display:block;margin:8px auto 40px}
+</style></head><body>
+<header><h1>Pinterest Taste Catalog</h1><p>__SUMMARY__ Images load from Pinterest; nothing is stored here. Every pin belongs to its creator.</p></header>
+<nav id="cats" aria-label="Categories"></nav>
+<main id="grid"></main><button id="more" type="button">Show more</button>
+<script id="data" type="application/json">__DATA__</script>
+<script>
+const DATA = JSON.parse(document.getElementById('data').textContent);
+const PAGE = 30; let cat = 'all', shown = 0, list = [];
+const grid = document.getElementById('grid'), nav = document.getElementById('cats'), more = document.getElementById('more');
+function pinEl(p){
+  const f = document.createElement('figure'); f.className = 'pin';
+  const embed = document.createElement('a'); embed.href = p.url; embed.dataset.pinDo = 'embedPin'; embed.dataset.pinWidth = 'medium';
+  const t = document.createElement('a'); t.className = 't'; t.href = p.url; t.target = '_blank'; t.rel = 'noopener'; t.textContent = p.title || 'Open pin';
+  f.append(embed, t); return f;
+}
+function render(reset){
+  if (reset){ grid.replaceChildren(); shown = 0; list = DATA.pins.filter(p => cat === 'all' || p.categories.includes(cat)); }
+  list.slice(shown, shown + PAGE).forEach(p => grid.append(pinEl(p))); shown = Math.min(shown + PAGE, list.length);
+  more.hidden = shown >= list.length;
+  if (window.PinUtils) window.PinUtils.build();
+}
+['all', ...DATA.categories.map(c => c.name)].forEach(name => {
+  const b = document.createElement('button'); b.type = 'button';
+  const n = name === 'all' ? DATA.pins.length : DATA.categories.find(c => c.name === name).count;
+  b.textContent = `${name} (${n})`; b.setAttribute('aria-pressed', name === cat);
+  b.onclick = () => { cat = name; nav.querySelectorAll('button').forEach(x => x.setAttribute('aria-pressed', x === b)); render(true); };
+  nav.append(b);
+});
+more.onclick = () => render(false);
+render(true);
+</script>
+<script async defer src="https://assets.pinterest.com/js/pinit.js"></script>
+</body></html>
+"""
+
+
+def build():
+    store = ps.read_json(ps.PINS, {"pins": {}})
+    analysis = ps.read_json(ps.ANALYSIS, {"categories": {}})
+    pins = sorted(store["pins"].values(), key=lambda p: p.get("collected", ""), reverse=True)
+    counts = {}
+    for p in pins:
+        for c in p["categories"]:
+            counts[c] = counts.get(c, 0) + 1
+    data = {
+        "pins": [{"url": p["url"], "title": p["title"], "categories": p["categories"]} for p in pins],
+        "categories": [{"name": c, "count": n} for c, n in sorted(counts.items())],
+    }
+    # JSON inside <script type=application/json>: escape "<" so a title can't close the tag.
+    blob = json.dumps(data, ensure_ascii=False).replace("<", "\\u003c")
+    summary = f"{len(pins)} pins across {len(counts)} categories."
+    write(CATALOG, PAGE.replace("__SUMMARY__", html.escape(summary)).replace("__DATA__", blob))
+
+    rows = ["# Pattern files", "",
+            "Generated by the bot. Read `_foundations.md` first, then the category files that match your product.", "",
+            "| Category | Pins collected | Pins analyzed | Last analyzed |", "|---|---|---|---|"]
+    for t in ps.load_topics():
+        c = t["category"]
+        a = analysis.get("categories", {}).get(c, {})
+        has = (ps.REFS / f"{c}.md").exists()
+        name = f"[{c}]({c}.md)" if has else f"{c} (not yet)"
+        rows.append(f"| {name} | {counts.get(c, 0)} | {len(a.get('analyzed', []))} | {(a.get('last_run') or '-')[:10]} |")
+    rows += ["", f"_Updated {dt.date.today().isoformat()}._", ""]
+    write(INDEX, "\n".join(rows))
+
+
+def write(path, text):
+    path.parent.mkdir(parents=True, exist_ok=True)
+    if path.exists() and path.read_text(encoding="utf-8") == text:
+        return  # avoid no-op commits
+    tmp = path.with_name(path.name + ".tmp")
+    tmp.write_text(text, encoding="utf-8")
+    tmp.replace(path)
+
+
+if __name__ == "__main__":
+    build()

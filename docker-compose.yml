@@ -1,0 +1,62 @@
+name: pinterest-taste
+
+# Three services, least privilege each:
+#   collector  - browser + noVNC; writes pins.json and thumbnails. No secrets.
+#   analyst    - Claude Code (your subscription token). No git credentials.
+#   publisher  - validates and pushes. The only one with the deploy key.
+
+x-common: &common
+  restart: unless-stopped
+  init: true
+  environment: &env
+    REPO_DIR: /repo
+    STATE_DIR: /state
+  logging:
+    driver: json-file
+    options: { max-size: "10m", max-file: "3" }
+
+services:
+  collector:
+    <<: *common
+    build: { context: ./bot, dockerfile: collector/Dockerfile }
+    shm_size: "1gb"
+    environment:
+      <<: *env
+      VNC_PASSWORD: ${VNC_PASSWORD:-}
+      MIN_GAP_MIN: ${MIN_GAP_MIN:-15}
+      MAX_GAP_MIN: ${MAX_GAP_MIN:-40}
+      MAX_SEARCHES_PER_DAY: ${MAX_SEARCHES_PER_DAY:-60}
+      SCROLL_ROUNDS: ${SCROLL_ROUNDS:-12}
+    ports:
+      - "127.0.0.1:6080:6080"   # noVNC, VM-local only: reach it through an SSH tunnel
+    volumes:
+      - ./:/repo
+      - state:/state
+
+  analyst:
+    <<: *common
+    build: { context: ./bot, dockerfile: analyst/Dockerfile }
+    environment:
+      <<: *env
+      CLAUDE_CODE_OAUTH_TOKEN: ${CLAUDE_CODE_OAUTH_TOKEN:-}
+      ANALYST_MODEL: ${ANALYST_MODEL:-sonnet}
+      ANALYST_MIN_NEW: ${ANALYST_MIN_NEW:-40}
+    volumes:
+      - ./:/repo
+      - state:/state:ro
+      - claude-home:/home/node/.claude
+
+  publisher:
+    <<: *common
+    build: { context: ./bot, dockerfile: publisher/Dockerfile }
+    environment:
+      <<: *env
+      PUBLISH_EVERY_SEC: ${PUBLISH_EVERY_SEC:-900}
+    volumes:
+      - ./:/repo
+      - state:/state
+      - ${DEPLOY_KEY_PATH:?set DEPLOY_KEY_PATH in .env}:/run/secrets/deploy_key:ro
+
+volumes:
+  state:
+  claude-home:

@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "deny": [
+      "Bash",
+      "WebFetch",
+      "WebSearch",
+      "Read(//proc/**)",
+      "Read(//etc/**)",
+      "Read(//run/**)",
+      "Read(//home/**)",
+      "Read(//root/**)",
+      "Read(//state/**)",
+      "Read(//repo/**)",
+      "Read(~/**)"
+    ]
+  }
+}
