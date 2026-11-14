@@ -1,38 +1,283 @@
 {
-  "_note": "Searches the bot rotates through. Each category becomes references/<category>.md. Add a category or query here and the bot picks it up on restart.",
-  "categories": [
-    {"category": "mobile-app",         "queries": ["mobile app ui design", "ios app ui", "android app ui design"]},
-    {"category": "dashboard",          "queries": ["dashboard ui design", "admin dashboard ui", "analytics dashboard ui"]},
-    {"category": "landing-page",       "queries": ["landing page design", "website hero section design", "saas landing page"]},
-    {"category": "saas-web-app",       "queries": ["saas web app ui", "b2b saas ui design", "web app interface design"]},
-    {"category": "ecommerce",          "queries": ["ecommerce app ui", "product page ui design", "shopping app ui"]},
-    {"category": "fintech",            "queries": ["fintech app ui", "banking app ui design", "finance dashboard ui"]},
-    {"category": "crypto-web3",        "queries": ["crypto wallet app ui", "web3 dashboard ui"]},
-    {"category": "onboarding-auth",    "queries": ["onboarding screens ui", "login signup ui design"]},
-    {"category": "social",             "queries": ["social media app ui design", "chat messaging app ui"]},
-    {"category": "health-fitness",     "queries": ["fitness app ui design", "health app ui", "meditation app ui"]},
-    {"category": "travel-booking",     "queries": ["travel app ui design", "booking app ui", "hotel booking ui"]},
-    {"category": "food-delivery",      "queries": ["food delivery app ui", "restaurant app ui", "recipe app ui"]},
-    {"category": "ai-chat",            "queries": ["ai chat app ui", "ai assistant ui design", "ai saas dashboard ui"]},
-    {"category": "education",          "queries": ["education app ui design", "e-learning dashboard ui"]},
-    {"category": "media-music",        "queries": ["music app ui design", "streaming app ui", "podcast app ui"]},
-    {"category": "real-estate",        "queries": ["real estate app ui", "property website design"]},
-    {"category": "productivity",       "queries": ["task management app ui", "calendar app ui design", "notes app ui"]},
-    {"category": "portfolio",          "queries": ["portfolio website design", "personal website design"]},
-    {"category": "pricing",            "queries": ["pricing page ui design"]},
-    {"category": "forms-settings",     "queries": ["settings page ui design", "form ui design", "checkout ui design"]},
-    {"category": "empty-states",       "queries": ["empty state ui design", "error page ui design"]},
-    {"category": "navigation",         "queries": ["tab bar navigation ui", "sidebar navigation ui", "website navigation menu design"]},
-    {"category": "components",         "queries": ["ui components design system", "ui card design", "button ui design"]},
-    {"category": "data-viz",           "queries": ["data visualization ui", "chart ui design"]},
-    {"category": "wearables",          "queries": ["smartwatch ui design", "smart home app ui"]},
-    {"category": "dark-mode",          "queries": ["dark mode ui design", "dark ui dashboard"]},
-    {"category": "glassmorphism",      "queries": ["glassmorphism ui"]},
-    {"category": "neubrutalism",       "queries": ["neubrutalism ui design", "brutalist web design"]},
-    {"category": "bento-grid",         "queries": ["bento grid ui design"]},
-    {"category": "illustration-3d",    "queries": ["3d illustration ui app", "3d website design"]},
-    {"category": "typography",         "queries": ["typography web design", "font pairing ui", "editorial web design"]},
-    {"category": "color-palettes",     "queries": ["ui color palette", "app color palette", "gradient ui design"]},
-    {"category": "micro-interactions", "queries": ["micro interactions ui", "ui animation", "loading animation ui"]}
-  ]
+ "_note": "Searches the bot rotates through. Each category becomes references/<category>.md. Add a category or query here and the bot picks it up on restart. Queries target colourful 2026 work (owner preference, 2026-11-14).",
+ "categories": [
+  {
+   "category": "mobile-app",
+   "queries": [
+    "mobile app ui design 2026",
+    "ios app ui 2026",
+    "android app ui design 2026",
+    "colorful mobile app ui design 2026"
+   ]
+  },
+  {
+   "category": "dashboard",
+   "queries": [
+    "dashboard ui design 2026",
+    "admin dashboard ui 2026",
+    "analytics dashboard ui 2026",
+    "colorful dashboard ui design 2026"
+   ]
+  },
+  {
+   "category": "landing-page",
+   "queries": [
+    "landing page design 2026",
+    "website hero section design 2026",
+    "saas landing page 2026",
+    "colorful landing page design 2026"
+   ]
+  },
+  {
+   "category": "saas-web-app",
+   "queries": [
+    "saas web app ui 2026",
+    "b2b saas ui design 2026",
+    "web app interface design 2026",
+    "colorful saas web app ui 2026"
+   ]
+  },
+  {
+   "category": "ecommerce",
+   "queries": [
+    "ecommerce app ui 2026",
+    "product page ui design 2026",
+    "shopping app ui 2026",
+    "colorful ecommerce app ui 2026"
+   ]
+  },
+  {
+   "category": "fintech",
+   "queries": [
+    "fintech app ui 2026",
+    "banking app ui design 2026",
+    "finance dashboard ui 2026",
+    "colorful fintech app ui 2026"
+   ]
+  },
+  {
+   "category": "crypto-web3",
+   "queries": [
+    "crypto wallet app ui 2026",
+    "web3 dashboard ui 2026",
+    "colorful crypto wallet app ui 2026"
+   ]
+  },
+  {
+   "category": "onboarding-auth",
+   "queries": [
+    "onboarding screens ui 2026",
+    "login signup ui design 2026",
+    "colorful onboarding screens ui 2026"
+   ]
+  },
+  {
+   "category": "social",
+   "queries": [
+    "social media app ui design 2026",
+    "chat messaging app ui 2026",
+    "colorful social media app ui design 2026"
+   ]
+  },
+  {
+   "category": "health-fitness",
+   "queries": [
+    "fitness app ui design 2026",
+    "health app ui 2026",
+    "meditation app ui 2026",
+    "colorful fitness app ui design 2026"
+   ]
+  },
+  {
+   "category": "travel-booking",
+   "queries": [
+    "travel app ui design 2026",
+    "booking app ui 2026",
+    "hotel booking ui 2026",
+    "colorful travel app ui design 2026"
+   ]
+  },
+  {
+   "category": "food-delivery",
+   "queries": [
+    "food delivery app ui 2026",
+    "restaurant app ui 2026",
+    "recipe app ui 2026",
+    "colorful food delivery app ui 2026"
+   ]
+  },
+  {
+   "category": "ai-chat",
+   "queries": [
+    "ai chat app ui 2026",
+    "ai assistant ui design 2026",
+    "ai saas dashboard ui 2026",
+    "colorful ai chat app ui 2026"
+   ]
+  },
+  {
+   "category": "education",
+   "queries": [
+    "education app ui design 2026",
+    "e-learning dashboard ui 2026",
+    "colorful education app ui design 2026"
+   ]
+  },
+  {
+   "category": "media-music",
+   "queries": [
+    "music app ui design 2026",
+    "streaming app ui 2026",
+    "podcast app ui 2026",
+    "colorful music app ui design 2026"
+   ]
+  },
+  {
+   "category": "real-estate",
+   "queries": [
+    "real estate app ui 2026",
+    "property website design 2026",
+    "colorful real estate app ui 2026"
+   ]
+  },
+  {
+   "category": "productivity",
+   "queries": [
+    "task management app ui 2026",
+    "calendar app ui design 2026",
+    "notes app ui 2026",
+    "colorful task management app ui 2026"
+   ]
+  },
+  {
+   "category": "portfolio",
+   "queries": [
+    "portfolio website design 2026",
+    "personal website design 2026",
+    "colorful portfolio website design 2026"
+   ]
+  },
+  {
+   "category": "pricing",
+   "queries": [
+    "pricing page ui design 2026",
+    "colorful pricing page ui design 2026"
+   ]
+  },
+  {
+   "category": "forms-settings",
+   "queries": [
+    "settings page ui design 2026",
+    "form ui design 2026",
+    "checkout ui design 2026",
+    "colorful settings page ui design 2026"
+   ]
+  },
+  {
+   "category": "empty-states",
+   "queries": [
+    "empty state ui design 2026",
+    "error page ui design 2026",
+    "colorful empty state ui design 2026"
+   ]
+  },
+  {
+   "category": "navigation",
+   "queries": [
+    "tab bar navigation ui 2026",
+    "sidebar navigation ui 2026",
+    "website navigation menu design 2026",
+    "colorful tab bar navigation ui 2026"
+   ]
+  },
+  {
+   "category": "components",
+   "queries": [
+    "ui components design system 2026",
+    "ui card design 2026",
+    "button ui design 2026",
+    "colorful ui components design system 2026"
+   ]
+  },
+  {
+   "category": "data-viz",
+   "queries": [
+    "data visualization ui 2026",
+    "chart ui design 2026",
+    "colorful data visualization ui 2026"
+   ]
+  },
+  {
+   "category": "wearables",
+   "queries": [
+    "smartwatch ui design 2026",
+    "smart home app ui 2026",
+    "colorful smartwatch ui design 2026"
+   ]
+  },
+  {
+   "category": "dark-mode",
+   "queries": [
+    "colorful dark mode ui 2026",
+    "dark ui dashboard vibrant accents 2026"
+   ]
+  },
+  {
+   "category": "glassmorphism",
+   "queries": [
+    "glassmorphism ui 2026",
+    "colorful glassmorphism ui 2026"
+   ]
+  },
+  {
+   "category": "neubrutalism",
+   "queries": [
+    "neubrutalism ui design 2026",
+    "brutalist web design 2026",
+    "colorful neubrutalism ui design 2026"
+   ]
+  },
+  {
+   "category": "bento-grid",
+   "queries": [
+    "bento grid ui design 2026",
+    "colorful bento grid ui design 2026"
+   ]
+  },
+  {
+   "category": "illustration-3d",
+   "queries": [
+    "3d illustration ui app 2026",
+    "3d website design 2026",
+    "colorful 3d illustration ui app 2026"
+   ]
+  },
+  {
+   "category": "typography",
+   "queries": [
+    "typography web design 2026",
+    "font pairing ui 2026",
+    "editorial web design 2026",
+    "colorful typography web design 2026"
+   ]
+  },
+  {
+   "category": "color-palettes",
+   "queries": [
+    "ui color palette 2026",
+    "app color palette 2026",
+    "gradient ui design 2026",
+    "colorful ui color palette 2026"
+   ]
+  },
+  {
+   "category": "micro-interactions",
+   "queries": [
+    "micro interactions ui 2026",
+    "ui animation 2026",
+    "loading animation ui 2026",
+    "colorful micro interactions ui 2026"
+   ]
+  }
+ ]
 }
