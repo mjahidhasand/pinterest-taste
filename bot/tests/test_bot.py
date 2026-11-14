@@ -72,6 +72,30 @@ class Pending(unittest.TestCase):
         self.assertEqual(ps.pending_for("fintech", store, analysis), ["1111111"])
 
 
+class PruneThumbs(unittest.TestCase):
+    def setUp(self):
+        ps.THUMBS.mkdir(parents=True, exist_ok=True)
+        for f in ps.THUMBS.glob("*.jpg"):
+            f.unlink()
+
+    def test_preview_kept_until_every_category_has_analyzed_it(self):
+        store = {"pins": {}}
+        ps.merge_batch(store, "dashboard", "q", "d", [{"id": "5555555"}])
+        ps.merge_batch(store, "dark-mode", "q", "d", [{"id": "5555555"}])
+        (ps.THUMBS / "5555555.jpg").write_bytes(b"x")
+        half = {"categories": {"dashboard": {"analyzed": ["5555555"]}}}
+        self.assertEqual(ps.prune_thumbs(store, half), 0)
+        self.assertTrue((ps.THUMBS / "5555555.jpg").exists())
+        full = {"categories": {"dashboard": {"analyzed": ["5555555"]}, "dark-mode": {"analyzed": ["5555555"]}}}
+        self.assertEqual(ps.prune_thumbs(store, full), 1)
+        self.assertFalse((ps.THUMBS / "5555555.jpg").exists())
+
+    def test_unknown_files_are_left_alone(self):
+        (ps.THUMBS / "6666666.jpg").write_bytes(b"x")
+        self.assertEqual(ps.prune_thumbs({"pins": {}}, {"categories": {}}), 0)
+        self.assertTrue((ps.THUMBS / "6666666.jpg").exists())
+
+
 class ValidateReference(unittest.TestCase):
     def test_good_reference_passes(self):
         self.assertEqual(validate_reference(GOOD_REF, {"1234567"}), [])

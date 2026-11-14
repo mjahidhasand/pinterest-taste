@@ -43,7 +43,7 @@ services:
       ANALYST_MIN_NEW: ${ANALYST_MIN_NEW:-40}
     volumes:
       - ./:/repo
-      - state:/state:ro
+      - state:/state            # rw: deletes previews once analyzed
       - claude-home:/home/node/.claude
 
   publisher:

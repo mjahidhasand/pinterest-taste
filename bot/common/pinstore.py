@@ -86,6 +86,23 @@ def clean_title(s):
     return s[:220]
 
 
+def prune_thumbs(store, analysis):
+    """Delete previews whose pin has been analyzed in every category it belongs to.
+
+    Previews exist only so the analyst can look at a pin; once nothing still
+    needs them they are removed, so the VM never keeps a library of images.
+    Returns the number deleted.
+    """
+    done = {c: set(v.get("analyzed", [])) for c, v in analysis.get("categories", {}).items()}
+    removed = 0
+    for f in THUMBS.glob("*.jpg"):
+        rec = store.get("pins", {}).get(f.stem)
+        if rec and all(f.stem in done.get(c, ()) for c in rec["categories"]):
+            f.unlink(missing_ok=True)
+            removed += 1
+    return removed
+
+
 def pending_for(category, store, analysis):
     """Pins in a category that have a thumbnail but haven't been analyzed yet."""
     done = set(analysis.get("categories", {}).get(category, {}).get("analyzed", []))

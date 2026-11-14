@@ -182,6 +182,10 @@ def main():
                 log(f"[{cat}] analyzing {min(len(pending), BATCH)} of {len(pending)} pending pins")
                 ok, msg = analyze_category(cat, pending, store, analysis)
                 log(f"[{cat}] {'updated' if ok else 'FAILED'} ({msg})")
+        # Previews are only kept until every category that needs them has analyzed them.
+        removed = ps.prune_thumbs(store, ps.read_json(ps.ANALYSIS, {"categories": {}}))
+        if removed:
+            log(f"deleted {removed} analyzed previews")
         if ok:
             backoff = 0
             time.sleep(POLL_SEC)
