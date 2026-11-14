@@ -81,9 +81,18 @@ def main():
     git("config", "user.email", "pinterest-taste-bot@users.noreply.github.com")
     while True:
         try:
-            log(publish_once())
+            result = publish_once()
+            log(result)
+            if result.startswith("BLOCKED"):
+                ps.write_status("publisher", state="blocked", last_error=result[:500])
+            elif result.startswith("pushed"):
+                ps.write_status("publisher", state="ok", errors=0, last_push=dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"))
+            else:
+                ps.write_status("publisher", state="ok", errors=0)
         except Exception as e:  # log and retry next cycle; never crash-loop the push
             log(f"publish error: {e}")
+            prev = ps.read_json(ps.STATE / "publisher_status.json", {})
+            ps.write_status("publisher", state="error", errors=prev.get("errors", 0) + 1, last_error=str(e)[:300])
         time.sleep(EVERY)
 
 

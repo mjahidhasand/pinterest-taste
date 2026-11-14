@@ -111,3 +111,12 @@ def pending_for(category, store, analysis):
         if category in rec["categories"] and pid not in done and (THUMBS / f"{pid}.jpg").exists():
             out.append(pid)
     return sorted(out, key=lambda i: store["pins"][i].get("collected", ""))
+
+
+def write_status(service, **fields):
+    """Merge fields into /state/<service>_status.json for the watchdog to read."""
+    import datetime as _dt
+    path = STATE / f"{service}_status.json"
+    cur = read_json(path, {})
+    cur.update(fields, updated=_dt.datetime.now(_dt.timezone.utc).isoformat(timespec="seconds"))
+    write_json(path, cur)

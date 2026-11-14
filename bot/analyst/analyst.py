@@ -164,9 +164,10 @@ def synthesize_foundations(store, analysis):
 def main():
     if not os.environ.get("CLAUDE_CODE_OAUTH_TOKEN"):
         log("CLAUDE_CODE_OAUTH_TOKEN is not set (run `claude setup-token` and put it in .env); waiting")
-    backoff = 0
+    backoff = failures = 0
     while True:
         if not os.environ.get("CLAUDE_CODE_OAUTH_TOKEN"):
+            ps.write_status("analyst", state="no_token")
             time.sleep(POLL_SEC)
             continue
         store = ps.read_json(ps.PINS, {"pins": {}})
@@ -187,9 +188,12 @@ def main():
         if removed:
             log(f"deleted {removed} analyzed previews")
         if ok:
-            backoff = 0
+            backoff = failures = 0
+            ps.write_status("analyst", state="ok", failures=0)
             time.sleep(POLL_SEC)
         else:
+            failures += 1
+            ps.write_status("analyst", state="failing", failures=failures, last_error=msg[:300])
             # Usage limits, outages and bad output all land here: back off, never hammer.
             backoff = min(6 * 3600, max(1800, backoff * 2))
             log(f"backing off {backoff // 60} min")
