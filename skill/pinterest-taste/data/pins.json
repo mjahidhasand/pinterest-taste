@@ -58770,7 +58770,8 @@
     "portfolio",
     "neubrutalism",
     "typography",
-    "landing-page"
+    "landing-page",
+    "bento-grid"
    ],
    "collected": "2026-11-14",
    "id": "1107181889668067699",
@@ -58782,7 +58783,8 @@
     "editorial web design 2026",
     "personal website design 2026",
     "portfolio website design 2026",
-    "font pairing ui 2026"
+    "font pairing ui 2026",
+    "bento grid ui design 2026"
    ],
    "title": "an image of the back side of a computer screen with text and images on it",
    "url": "https://www.pinterest.com/pin/1107181889668067699/"
@@ -67495,6 +67497,18 @@
    ],
    "title": "A UI/UX comparison graphic showing a bad empty state with a dead-end message versus a good empty state featuring an educational onboarding flow and a clear call-to-action button to create a new project.",
    "url": "https://www.pinterest.com/pin/1112600282980354812/"
+  },
+  "1112600282980850132": {
+   "categories": [
+    "bento-grid"
+   ],
+   "collected": "2026-11-21",
+   "id": "1112600282980850132",
+   "queries": [
+    "bento grid ui design 2026"
+   ],
+   "title": "An architectural blueprint comparing a visual Bento Grid UI layout with the exact CSS Grid code required to build it, highlighting a 12-column template and 16px gaps for frontend developers.",
+   "url": "https://www.pinterest.com/pin/1112600282980850132/"
   },
   "1112741020457301567": {
    "categories": [
@@ -99109,6 +99123,18 @@
    "title": "This contains an image of: SaaS Website UI/UX Design | FAQ page",
    "url": "https://www.pinterest.com/pin/1134062749957610905/"
   },
+  "1134133118685554282": {
+   "categories": [
+    "bento-grid"
+   ],
+   "collected": "2026-11-21",
+   "id": "1134133118685554282",
+   "queries": [
+    "bento grid ui design 2026"
+   ],
+   "title": "an image of a web page with the words bento grids written in spanish",
+   "url": "https://www.pinterest.com/pin/1134133118685554282/"
+  },
   "1134133118701249826": {
    "categories": [
     "color-palettes"
@@ -99747,6 +99773,18 @@
    ],
    "title": "the cover of fashion that feels good, with three different images in purple and black",
    "url": "https://www.pinterest.com/pin/1135470124824311744/"
+  },
+  "1135470124852294584": {
+   "categories": [
+    "bento-grid"
+   ],
+   "collected": "2026-11-21",
+   "id": "1135470124852294584",
+   "queries": [
+    "bento grid ui design 2026"
+   ],
+   "title": "an image of a website page with the title everything in one work space on it",
+   "url": "https://www.pinterest.com/pin/1135470124852294584/"
   },
   "1135470124863734037": {
    "categories": [
@@ -129922,6 +129960,18 @@
    "title": "the back side of an advertisement with black and white text, which reads evlve the way you work",
    "url": "https://www.pinterest.com/pin/233483561927369655/"
   },
+  "234116880623103853": {
+   "categories": [
+    "bento-grid"
+   ],
+   "collected": "2026-11-21",
+   "id": "234116880623103853",
+   "queries": [
+    "bento grid ui design 2026"
+   ],
+   "title": "a person holding a smart phone in front of a screen with different images on it",
+   "url": "https://www.pinterest.com/pin/234116880623103853/"
+  },
   "234398355598861981": {
    "categories": [
     "landing-page",
@@ -130498,6 +130548,18 @@
    ],
    "title": "an image of a web page with many different things on the screen and in the background",
    "url": "https://www.pinterest.com/pin/241927811228960784/"
+  },
+  "241927811228963634": {
+   "categories": [
+    "bento-grid"
+   ],
+   "collected": "2026-11-21",
+   "id": "241927811228963634",
+   "queries": [
+    "bento grid ui design 2026"
+   ],
+   "title": "the website design for smart girl, which is designed to look like an appliance",
+   "url": "https://www.pinterest.com/pin/241927811228963634/"
   },
   "241927811228977736": {
    "categories": [
@@ -136094,12 +136156,14 @@
   },
   "286260120063602498": {
    "categories": [
-    "portfolio"
+    "portfolio",
+    "bento-grid"
    ],
    "collected": "2026-11-21",
    "id": "286260120063602498",
    "queries": [
-    "personal website design 2026"
+    "personal website design 2026",
+    "bento grid ui design 2026"
    ],
    "title": "This contains an image of: Minimalist Designer Portfolio — Bento Grid Website Design",
    "url": "https://www.pinterest.com/pin/286260120063602498/"
@@ -136564,14 +136628,16 @@
   "291819250875688933": {
    "categories": [
     "saas-web-app",
-    "dashboard"
+    "dashboard",
+    "bento-grid"
    ],
    "collected": "2026-11-16",
    "id": "291819250875688933",
    "queries": [
     "b2b saas ui design 2026",
     "web app interface design 2026",
-    "analytics dashboard ui 2026"
+    "analytics dashboard ui 2026",
+    "bento grid ui design 2026"
    ],
    "title": "a computer screen with the words u design breakdown on it",
    "url": "https://www.pinterest.com/pin/291819250875688933/"
@@ -140795,13 +140861,15 @@
   "333055334963544751": {
    "categories": [
     "navigation",
-    "forms-settings"
+    "forms-settings",
+    "bento-grid"
    ],
    "collected": "2026-11-20",
    "id": "333055334963544751",
    "queries": [
     "tab bar navigation ui 2026",
-    "settings page ui design 2026"
+    "settings page ui design 2026",
+    "bento grid ui design 2026"
    ],
    "title": "an image of a computer screen with pictures and text on the bottom right side of it",
    "url": "https://www.pinterest.com/pin/333055334963544751/"
@@ -147351,7 +147419,8 @@
    "collected": "2026-11-18",
    "id": "359302876539240176",
    "queries": [
-    "colorful bento grid ui design 2026"
+    "colorful bento grid ui design 2026",
+    "bento grid ui design 2026"
    ],
    "title": "a large white board with various dashboards on it",
    "url": "https://www.pinterest.com/pin/359302876539240176/"
@@ -149870,7 +149939,8 @@
    "collected": "2026-11-18",
    "id": "377458012536486717",
    "queries": [
-    "colorful bento grid ui design 2026"
+    "colorful bento grid ui design 2026",
+    "bento grid ui design 2026"
    ],
    "title": "an image of a woman with glasses on her face and the words alex soccolloff above it",
    "url": "https://www.pinterest.com/pin/377458012536486717/"
@@ -156587,13 +156657,15 @@
   "430797520581688416": {
    "categories": [
     "typography",
-    "neubrutalism"
+    "neubrutalism",
+    "bento-grid"
    ],
    "collected": "2026-11-16",
    "id": "430797520581688416",
    "queries": [
     "editorial web design 2026",
-    "brutalist web design 2026"
+    "brutalist web design 2026",
+    "bento grid ui design 2026"
    ],
    "title": "an orange and black website design with multiple images in the background, including skyscrapers",
    "url": "https://www.pinterest.com/pin/430797520581688416/"
@@ -172328,6 +172400,18 @@
    "title": "the landing page for an online learning platform, which is designed to help students learn how to",
    "url": "https://www.pinterest.com/pin/485896247326975213/"
   },
+  "486036984809257442": {
+   "categories": [
+    "bento-grid"
+   ],
+   "collected": "2026-11-21",
+   "id": "486036984809257442",
+   "queries": [
+    "bento grid ui design 2026"
+   ],
+   "title": "four different images with people standing in the center and on top of them, one is pointing",
+   "url": "https://www.pinterest.com/pin/486036984809257442/"
+  },
   "486318459783718543": {
    "categories": [
     "data-viz"
@@ -185123,6 +185207,18 @@
    ],
    "title": "an app for hotels and restaurants",
    "url": "https://www.pinterest.com/pin/578853358379908350/"
+  },
+  "578853358384010019": {
+   "categories": [
+    "bento-grid"
+   ],
+   "collected": "2026-11-21",
+   "id": "578853358384010019",
+   "queries": [
+    "bento grid ui design 2026"
+   ],
+   "title": "four different types of business cards on a white background",
+   "url": "https://www.pinterest.com/pin/578853358384010019/"
   },
   "578853358386949869": {
    "categories": [
@@ -198181,14 +198277,16 @@
   "636274253658722494": {
    "categories": [
     "fintech",
-    "dashboard"
+    "dashboard",
+    "bento-grid"
    ],
    "collected": "2026-11-16",
    "id": "636274253658722494",
    "queries": [
     "finance dashboard ui 2026",
     "dashboard ui design 2026",
-    "analytics dashboard ui 2026"
+    "analytics dashboard ui 2026",
+    "bento grid ui design 2026"
    ],
    "title": "a screen shot of the build a better budget page",
    "url": "https://www.pinterest.com/pin/636274253658722494/"
@@ -198459,6 +198557,18 @@
    "title": "four different colored buttons on a black background with the text'every payment needs '",
    "url": "https://www.pinterest.com/pin/637259416073246872/"
   },
+  "637259416073265208": {
+   "categories": [
+    "bento-grid"
+   ],
+   "collected": "2026-11-21",
+   "id": "637259416073265208",
+   "queries": [
+    "bento grid ui design 2026"
+   ],
+   "title": "four vertical banners with the words new day and two people sitting on a park bench",
+   "url": "https://www.pinterest.com/pin/637259416073265208/"
+  },
   "637259416073283679": {
    "categories": [
     "landing-page"
@@ -198567,12 +198677,14 @@
   },
   "637259416073319689": {
    "categories": [
-    "real-estate"
+    "real-estate",
+    "bento-grid"
    ],
    "collected": "2026-11-16",
    "id": "637259416073319689",
    "queries": [
-    "property website design 2026"
+    "property website design 2026",
+    "bento grid ui design 2026"
    ],
    "title": "a real estate advertisment with an image of a house in the background",
    "url": "https://www.pinterest.com/pin/637259416073319689/"
@@ -211942,7 +212054,7 @@
    "queries": [
     "bento grid ui design 2026"
    ],
-   "title": "",
+   "title": "This contains an image of: 3 Bento card animation",
    "url": "https://www.pinterest.com/pin/706361522837557708/"
   },
   "706642997826324135": {
@@ -244943,6 +245055,18 @@
    "title": "This contains an image of: Xiaomi и неоморфизм",
    "url": "https://www.pinterest.com/pin/871305859185390840/"
   },
+  "871376227904004990": {
+   "categories": [
+    "bento-grid"
+   ],
+   "collected": "2026-11-21",
+   "id": "871376227904004990",
+   "queries": [
+    "bento grid ui design 2026"
+   ],
+   "title": "the interface for an interactive video game",
+   "url": "https://www.pinterest.com/pin/871376227904004990/"
+  },
   "871446596668953985": {
    "categories": [
     "real-estate"
@@ -257190,6 +257314,18 @@
    "title": "the homewise network logo is displayed in front of a black and white background with an image of a house",
    "url": "https://www.pinterest.com/pin/898890406869882199/"
   },
+  "898890406869898342": {
+   "categories": [
+    "bento-grid"
+   ],
+   "collected": "2026-11-21",
+   "id": "898890406869898342",
+   "queries": [
+    "bento grid ui design 2026"
+   ],
+   "title": "the website is designed to look like it has been created by an interior design firm",
+   "url": "https://www.pinterest.com/pin/898890406869898342/"
+  },
   "898890406869912449": {
    "categories": [
     "illustration-3d"
@@ -257998,7 +258134,8 @@
     "forms-settings",
     "saas-web-app",
     "dashboard",
-    "components"
+    "components",
+    "bento-grid"
    ],
    "collected": "2026-11-14",
    "id": "902690319089366010",
@@ -258013,7 +258150,8 @@
     "dashboard ui design 2026",
     "admin dashboard ui 2026",
     "ui card design 2026",
-    "saas web app ui 2026"
+    "saas web app ui 2026",
+    "bento grid ui design 2026"
    ],
    "title": "banking exploration. 📝 Designed by: @that.design.life ⠀⠀⠀⠀ .⁠⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ 👉 Follow @uiuxbunker for more UI inspiration⁠ and Daily Tips⁠⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ Use #uiuxbunker and tag us to be featured 😉⠀⠀⠀⠀⠀⠀⠀⠀ .⠀⠀⠀⠀⠀⠀⠀⠀ .⁠⠀⠀⠀⠀⠀⠀⠀⠀⠀ #u",
    "url": "https://www.pinterest.com/pin/902690319089366010/"
