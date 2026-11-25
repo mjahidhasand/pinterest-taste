@@ -2168,12 +2168,14 @@
   },
   "1010424866463948911": {
    "categories": [
-    "data-viz"
+    "data-viz",
+    "dashboard"
    ],
    "collected": "2026-11-23",
    "id": "1010424866463948911",
    "queries": [
-    "chart ui design 2026"
+    "chart ui design 2026",
+    "analytics dashboard ui 2026"
    ],
    "title": "an image of a dashboard screen with different graphs and numbers on it, including the number of",
    "url": "https://www.pinterest.com/pin/1010424866463948911/"
@@ -26437,6 +26439,18 @@
    "title": "the dashboard screen is displayed on a blue background, with icons and numbers above it",
    "url": "https://www.pinterest.com/pin/1083326885404454507/"
   },
+  "1083326885404479726": {
+   "categories": [
+    "dashboard"
+   ],
+   "collected": "2026-11-25",
+   "id": "1083326885404479726",
+   "queries": [
+    "analytics dashboard ui 2026"
+   ],
+   "title": "a dashboard showing the average cost of each product in one place and what they are selling",
+   "url": "https://www.pinterest.com/pin/1083326885404479726/"
+  },
   "1083326885404545942": {
    "categories": [
     "data-viz"
@@ -26774,7 +26788,8 @@
     "mobile-app",
     "social",
     "dark-mode",
-    "data-viz"
+    "data-viz",
+    "dashboard"
    ],
    "collected": "2026-11-14",
    "id": "1083326885405986407",
@@ -26785,7 +26800,8 @@
     "ios app ui 2026",
     "data visualization ui 2026",
     "mobile app ui design 2026",
-    "chart ui design 2026"
+    "chart ui design 2026",
+    "analytics dashboard ui 2026"
    ],
    "title": "an iphone screen showing the time and temperature in different places, including two hours to go",
    "url": "https://www.pinterest.com/pin/1083326885405986407/"
@@ -43564,13 +43580,15 @@
   "1094304409492076786": {
    "categories": [
     "fintech",
-    "color-palettes"
+    "color-palettes",
+    "dashboard"
    ],
    "collected": "2026-11-17",
    "id": "1094304409492076786",
    "queries": [
     "finance dashboard ui 2026",
-    "gradient ui design 2026"
+    "gradient ui design 2026",
+    "analytics dashboard ui 2026"
    ],
    "title": "an image of the dashboard screen for a mobile phone with multiple options to choose which one is right for you",
    "url": "https://www.pinterest.com/pin/1094304409492076786/"
@@ -57499,13 +57517,15 @@
   "1101059809022384127": {
    "categories": [
     "saas-web-app",
-    "fintech"
+    "fintech",
+    "dashboard"
    ],
    "collected": "2026-11-24",
    "id": "1101059809022384127",
    "queries": [
     "web app interface design 2026",
-    "finance dashboard ui 2026"
+    "finance dashboard ui 2026",
+    "analytics dashboard ui 2026"
    ],
    "title": "an invoicer is shown on top of a computer screen",
    "url": "https://www.pinterest.com/pin/1101059809022384127/"
@@ -59120,12 +59140,14 @@
   },
   "1101693127634441045": {
    "categories": [
-    "data-viz"
+    "data-viz",
+    "dashboard"
    ],
    "collected": "2026-11-25",
    "id": "1101693127634441045",
    "queries": [
-    "data visualization ui 2026"
+    "data visualization ui 2026",
+    "analytics dashboard ui 2026"
    ],
    "title": "an orange and white website design with multiple buttons",
    "url": "https://www.pinterest.com/pin/1101693127634441045/"
@@ -59542,12 +59564,14 @@
   },
   "1101904233866661712": {
    "categories": [
-    "fintech"
+    "fintech",
+    "dashboard"
    ],
    "collected": "2026-11-25",
    "id": "1101904233866661712",
    "queries": [
-    "finance dashboard ui 2026"
+    "finance dashboard ui 2026",
+    "analytics dashboard ui 2026"
    ],
    "title": "the screenshot shows different options for trading",
    "url": "https://www.pinterest.com/pin/1101904233866661712/"
@@ -60560,12 +60584,14 @@
   },
   "1102256077590227609": {
    "categories": [
-    "data-viz"
+    "data-viz",
+    "dashboard"
    ],
    "collected": "2026-11-23",
    "id": "1102256077590227609",
    "queries": [
-    "chart ui design 2026"
+    "chart ui design 2026",
+    "analytics dashboard ui 2026"
    ],
    "title": "an image of a dashboard screen with orange and black colors",
    "url": "https://www.pinterest.com/pin/1102256077590227609/"
@@ -71679,7 +71705,8 @@
     "wearables",
     "color-palettes",
     "components",
-    "mobile-app"
+    "mobile-app",
+    "dashboard"
    ],
    "collected": "2026-11-14",
    "id": "1109785533258641694",
@@ -71693,7 +71720,8 @@
     "gradient ui design 2026",
     "button ui design 2026",
     "ios app ui 2026",
-    "mobile app ui design 2026"
+    "mobile app ui design 2026",
+    "analytics dashboard ui 2026"
    ],
    "title": "a person holding up a cell phone with icons on the screen and an arrow pointing to it",
    "url": "https://www.pinterest.com/pin/1109785533258641694/"
@@ -71900,6 +71928,18 @@
    ],
    "title": "a cell phone with the menu on it next to an image of food and drink",
    "url": "https://www.pinterest.com/pin/1110067008188075913/"
+  },
+  "1110067008191327258": {
+   "categories": [
+    "dashboard"
+   ],
+   "collected": "2026-11-25",
+   "id": "1110067008191327258",
+   "queries": [
+    "analytics dashboard ui 2026"
+   ],
+   "title": "the dashboard screen shows that you can see how much data is stored in each section",
+   "url": "https://www.pinterest.com/pin/1110067008191327258/"
   },
   "1110137376876050310": {
    "categories": [
@@ -75911,7 +75951,8 @@
    "id": "1112600282978664863",
    "queries": [
     "dashboard ui design 2026",
-    "finance dashboard ui 2026"
+    "finance dashboard ui 2026",
+    "analytics dashboard ui 2026"
    ],
    "title": "the dashboard screen shows how much money can be invested",
    "url": "https://www.pinterest.com/pin/1112600282978664863/"
@@ -76391,7 +76432,8 @@
     "admin dashboard ui 2026",
     "chart ui design 2026",
     "finance dashboard ui 2026",
-    "gradient ui design 2026"
+    "gradient ui design 2026",
+    "analytics dashboard ui 2026"
    ],
    "title": "an image of a computer screen showing the time and date for each item on it",
    "url": "https://www.pinterest.com/pin/1112952126702124222/"
@@ -76470,7 +76512,8 @@
     "chart ui design 2026",
     "finance dashboard ui 2026",
     "web app interface design 2026",
-    "web3 dashboard ui 2026"
+    "web3 dashboard ui 2026",
+    "analytics dashboard ui 2026"
    ],
    "title": "This contains an image of:",
    "url": "https://www.pinterest.com/pin/1112952126703200404/"
@@ -82110,14 +82153,16 @@
    "categories": [
     "mobile-app",
     "micro-interactions",
-    "health-fitness"
+    "health-fitness",
+    "dashboard"
    ],
    "collected": "2026-11-15",
    "id": "1114852082790940228",
    "queries": [
     "mobile app ui design 2026",
     "ui animation 2026",
-    "health app ui 2026"
+    "health app ui 2026",
+    "analytics dashboard ui 2026"
    ],
    "title": "an iphone screen with the time displayed on it's display, and text that reads",
    "url": "https://www.pinterest.com/pin/1114852082790940228/"
@@ -83113,7 +83158,8 @@
     "data visualization ui 2026",
     "web app interface design 2026",
     "finance dashboard ui 2026",
-    "saas web app ui 2026"
+    "saas web app ui 2026",
+    "analytics dashboard ui 2026"
    ],
    "title": "the dashboard is displaying data and other things on it's display screen as well as green background",
    "url": "https://www.pinterest.com/pin/1116189088932975328/"
@@ -83773,6 +83819,18 @@
    "title": "the dashboard screen shows an image of someone's life and their daily schedules",
    "url": "https://www.pinterest.com/pin/1116189088938333351/"
   },
+  "1116189088938430808": {
+   "categories": [
+    "dashboard"
+   ],
+   "collected": "2026-11-25",
+   "id": "1116189088938430808",
+   "queries": [
+    "analytics dashboard ui 2026"
+   ],
+   "title": "a computer monitor sitting on top of a desk next to a keyboard and mouse with the words your project - manage with precision",
+   "url": "https://www.pinterest.com/pin/1116189088938430808/"
+  },
   "1116189088938517030": {
    "categories": [
     "dashboard",
@@ -83918,6 +83976,18 @@
    ],
    "title": "an image of a dashboard with data displayed on the screen and in front of it is a bar chart",
    "url": "https://www.pinterest.com/pin/1116189088939004474/"
+  },
+  "1116189088939231339": {
+   "categories": [
+    "dashboard"
+   ],
+   "collected": "2026-11-25",
+   "id": "1116189088939231339",
+   "queries": [
+    "analytics dashboard ui 2026"
+   ],
+   "title": "an image of a web page with the words discuss new opportunity and call through on it",
+   "url": "https://www.pinterest.com/pin/1116189088939231339/"
   },
   "1116189088939402098": {
    "categories": [
@@ -96214,7 +96284,8 @@
     "e-learning dashboard ui 2026",
     "colorful task management app ui 2026",
     "admin dashboard ui 2026",
-    "colorful typography web design 2026"
+    "colorful typography web design 2026",
+    "analytics dashboard ui 2026"
    ],
    "title": "an image of a web page that has been designed to look like a mountain scene",
    "url": "https://www.pinterest.com/pin/1127025875547618956/"
@@ -102614,7 +102685,8 @@
     "colorful dashboard ui design 2026",
     "finance dashboard ui 2026",
     "web app interface design 2026",
-    "web3 dashboard ui 2026"
+    "web3 dashboard ui 2026",
+    "analytics dashboard ui 2026"
    ],
    "title": "the landing page for an invoice website with dashboards and statistics on it",
    "url": "https://www.pinterest.com/pin/1129559150353538169/"
@@ -103164,7 +103236,8 @@
     "web app interface design 2026",
     "dark ui dashboard vibrant accents 2026",
     "web3 dashboard ui 2026",
-    "chart ui design 2026"
+    "chart ui design 2026",
+    "analytics dashboard ui 2026"
    ],
    "title": "an image of a web page with different colors and numbers on it, including the text hello moji",
    "url": "https://www.pinterest.com/pin/1130473943997475465/"
@@ -103788,6 +103861,18 @@
    ],
    "title": "the dashboard screen is shown with various data and statistics on it, including an image of a",
    "url": "https://www.pinterest.com/pin/1130825787720579655/"
+  },
+  "1130825787720603518": {
+   "categories": [
+    "dashboard"
+   ],
+   "collected": "2026-11-25",
+   "id": "1130825787720603518",
+   "queries": [
+    "analytics dashboard ui 2026"
+   ],
+   "title": "the dashboard is displayed on top of a computer screen, with green leaves in the background",
+   "url": "https://www.pinterest.com/pin/1130825787720603518/"
   },
   "1130825787720603965": {
    "categories": [
@@ -105287,6 +105372,18 @@
    ],
    "title": "the settings for different medical devices are highlighted in this screenshote screengrafion",
    "url": "https://www.pinterest.com/pin/1130825787722563416/"
+  },
+  "1130825787722576859": {
+   "categories": [
+    "dashboard"
+   ],
+   "collected": "2026-11-25",
+   "id": "1130825787722576859",
+   "queries": [
+    "analytics dashboard ui 2026"
+   ],
+   "title": "the dashboard for data displayed on a computer screen, with an arrow pointing to it",
+   "url": "https://www.pinterest.com/pin/1130825787722576859/"
   },
   "1130825787722590026": {
    "categories": [
@@ -107075,12 +107172,14 @@
   },
   "1131951687628664288": {
    "categories": [
-    "forms-settings"
+    "forms-settings",
+    "dashboard"
    ],
    "collected": "2026-11-16",
    "id": "1131951687628664288",
    "queries": [
-    "form ui design 2026"
+    "form ui design 2026",
+    "analytics dashboard ui 2026"
    ],
    "title": "CRM Dashboard",
    "url": "https://www.pinterest.com/pin/1131951687628664288/"
@@ -108176,6 +108275,18 @@
    "title": "an image of a computer screen with the price displayed on it's monitor screen",
    "url": "https://www.pinterest.com/pin/1132022056369949571/"
   },
+  "1132022056369966699": {
+   "categories": [
+    "dashboard"
+   ],
+   "collected": "2026-11-25",
+   "id": "1132022056369966699",
+   "queries": [
+    "analytics dashboard ui 2026"
+   ],
+   "title": "an orange and white dashboard showing sales data",
+   "url": "https://www.pinterest.com/pin/1132022056369966699/"
+  },
   "1132022056370001720": {
    "categories": [
     "dark-mode"
@@ -108378,7 +108489,8 @@
     "dashboard ui design 2026",
     "colorful dashboard ui design 2026",
     "finance dashboard ui 2026",
-    "admin dashboard ui 2026"
+    "admin dashboard ui 2026",
+    "analytics dashboard ui 2026"
    ],
    "title": "an info sheet with different types of information",
    "url": "https://www.pinterest.com/pin/1132022056370517923/"
@@ -115615,7 +115727,8 @@
   "1136807130983085628": {
    "categories": [
     "data-viz",
-    "crypto-web3"
+    "crypto-web3",
+    "dashboard"
    ],
    "collected": "2026-11-15",
    "id": "1136807130983085628",
@@ -115623,7 +115736,8 @@
     "chart ui design 2026",
     "web3 dashboard ui 2026",
     "data visualization ui 2026",
-    "colorful data visualization ui 2026"
+    "colorful data visualization ui 2026",
+    "analytics dashboard ui 2026"
    ],
    "title": "an image of dashboards on a computer screen with data displayed in the bottom right corner",
    "url": "https://www.pinterest.com/pin/1136807130983085628/"
@@ -115642,12 +115756,14 @@
   },
   "1136807130983260218": {
    "categories": [
-    "crypto-web3"
+    "crypto-web3",
+    "dashboard"
    ],
    "collected": "2026-11-21",
    "id": "1136807130983260218",
    "queries": [
-    "web3 dashboard ui 2026"
+    "web3 dashboard ui 2026",
+    "analytics dashboard ui 2026"
    ],
    "title": "the dashboard screen shows data and statistics for different businesses, including an average amount of customers",
    "url": "https://www.pinterest.com/pin/1136807130983260218/"
@@ -115722,6 +115838,18 @@
    ],
    "title": "an image of a website dashboard with various items and numbers on the screen, including credit cards",
    "url": "https://www.pinterest.com/pin/1136807130983889267/"
+  },
+  "1136807130983905369": {
+   "categories": [
+    "dashboard"
+   ],
+   "collected": "2026-11-25",
+   "id": "1136807130983905369",
+   "queries": [
+    "analytics dashboard ui 2026"
+   ],
+   "title": "the dashboard screen shows data, graphs and other things that are on display in different colors",
+   "url": "https://www.pinterest.com/pin/1136807130983905369/"
   },
   "1136807130983986674": {
    "categories": [
@@ -117083,7 +117211,8 @@
     "colorful saas web app ui 2026",
     "colorful settings page ui design 2026",
     "admin dashboard ui 2026",
-    "colorful dashboard ui design 2026"
+    "colorful dashboard ui design 2026",
+    "analytics dashboard ui 2026"
    ],
    "title": "an image of a computer screen with the word crm platform dashboard on it",
    "url": "https://www.pinterest.com/pin/1138425612105370932/"
@@ -122173,12 +122302,14 @@
   },
   "1142929211719581733": {
    "categories": [
-    "fintech"
+    "fintech",
+    "dashboard"
    ],
    "collected": "2026-11-16",
    "id": "1142929211719581733",
    "queries": [
-    "finance dashboard ui 2026"
+    "finance dashboard ui 2026",
+    "analytics dashboard ui 2026"
    ],
    "title": "the financial security report is displayed on a tablet screen, with an image of a bar chart",
    "url": "https://www.pinterest.com/pin/1142929211719581733/"
@@ -122188,7 +122319,8 @@
     "components",
     "dark-mode",
     "color-palettes",
-    "saas-web-app"
+    "saas-web-app",
+    "dashboard"
    ],
    "collected": "2026-11-24",
    "id": "1142929211719583430",
@@ -122196,7 +122328,8 @@
     "ui components design system 2026",
     "colorful dark mode ui 2026",
     "colorful ui color palette 2026",
-    "colorful saas web app ui 2026"
+    "colorful saas web app ui 2026",
+    "analytics dashboard ui 2026"
    ],
    "title": "the dashboard screen is shown in black and has different colors, shapes, and sizes",
    "url": "https://www.pinterest.com/pin/1142929211719583430/"
@@ -122795,13 +122928,15 @@
   "1142929211721315650": {
    "categories": [
     "ai-chat",
-    "fintech"
+    "fintech",
+    "dashboard"
    ],
    "collected": "2026-11-23",
    "id": "1142929211721315650",
    "queries": [
     "ai saas dashboard ui 2026",
-    "finance dashboard ui 2026"
+    "finance dashboard ui 2026",
+    "analytics dashboard ui 2026"
    ],
    "title": "a computer screen with the words up - to - date designs displayed on it's display",
    "url": "https://www.pinterest.com/pin/1142929211721315650/"
@@ -122844,6 +122979,18 @@
    "title": "an image of a computer screen with various dashboards",
    "url": "https://www.pinterest.com/pin/1142929211721428718/"
   },
+  "1142929211721429559": {
+   "categories": [
+    "dashboard"
+   ],
+   "collected": "2026-11-25",
+   "id": "1142929211721429559",
+   "queries": [
+    "analytics dashboard ui 2026"
+   ],
+   "title": "an image of a dashboard screen with various items and numbers on it's display",
+   "url": "https://www.pinterest.com/pin/1142929211721429559/"
+  },
   "1142929211721493740": {
    "categories": [
     "fintech"
@@ -122855,6 +123002,18 @@
    ],
    "title": "a screen shot of a website dashboard",
    "url": "https://www.pinterest.com/pin/1142929211721493740/"
+  },
+  "1142929211721504553": {
+   "categories": [
+    "dashboard"
+   ],
+   "collected": "2026-11-25",
+   "id": "1142929211721504553",
+   "queries": [
+    "analytics dashboard ui 2026"
+   ],
+   "title": "an image of a dashboard with data displayed on the screen and other information about it",
+   "url": "https://www.pinterest.com/pin/1142929211721504553/"
   },
   "1142929211721562170": {
    "categories": [
@@ -124577,13 +124736,15 @@
   "1144336586610446190": {
    "categories": [
     "data-viz",
-    "fintech"
+    "fintech",
+    "dashboard"
    ],
    "collected": "2026-11-16",
    "id": "1144336586610446190",
    "queries": [
     "data visualization ui 2026",
-    "finance dashboard ui 2026"
+    "finance dashboard ui 2026",
+    "analytics dashboard ui 2026"
    ],
    "title": "the dashboard screen shows that you can see what's on and how to use it",
    "url": "https://www.pinterest.com/pin/1144336586610446190/"
@@ -124631,6 +124792,18 @@
    ],
    "title": "an image of a computer screen showing the anatomy of a man's chest and upper body",
    "url": "https://www.pinterest.com/pin/1144336586610710001/"
+  },
+  "1144336586610710017": {
+   "categories": [
+    "dashboard"
+   ],
+   "collected": "2026-11-25",
+   "id": "1144336586610710017",
+   "queries": [
+    "analytics dashboard ui 2026"
+   ],
+   "title": "a computer screen with various dashboards and data displayed on the monitor, including graphs",
+   "url": "https://www.pinterest.com/pin/1144336586610710017/"
   },
   "1144336586610710028": {
    "categories": [
@@ -138777,12 +138950,14 @@
   },
   "137008013661462899": {
    "categories": [
-    "data-viz"
+    "data-viz",
+    "dashboard"
    ],
    "collected": "2026-11-18",
    "id": "137008013661462899",
    "queries": [
-    "data visualization ui 2026"
+    "data visualization ui 2026",
+    "analytics dashboard ui 2026"
    ],
    "title": "This contains an image of: ShipNow 배송 분석 · SaaS UI [IG-A006]",
    "url": "https://www.pinterest.com/pin/137008013661462899/"
@@ -141494,6 +141669,18 @@
    ],
    "title": "an image of a dashboard screen with people on it and the sun in the background",
    "url": "https://www.pinterest.com/pin/177118197842215150/"
+  },
+  "177118197842215163": {
+   "categories": [
+    "dashboard"
+   ],
+   "collected": "2026-11-25",
+   "id": "177118197842215163",
+   "queries": [
+    "analytics dashboard ui 2026"
+   ],
+   "title": "an image of a dashboard screen with people on it and the sun in the background",
+   "url": "https://www.pinterest.com/pin/177118197842215163/"
   },
   "177118197842215166": {
    "categories": [
@@ -144211,12 +144398,14 @@
   },
   "221380137941090114": {
    "categories": [
-    "data-viz"
+    "data-viz",
+    "dashboard"
    ],
    "collected": "2026-11-23",
    "id": "221380137941090114",
    "queries": [
-    "chart ui design 2026"
+    "chart ui design 2026",
+    "analytics dashboard ui 2026"
    ],
    "title": "the dashboard screen shows sales data and prices",
    "url": "https://www.pinterest.com/pin/221380137941090114/"
@@ -148127,6 +148316,18 @@
    "title": "the dashboard is filled with statistics and data for all kinds of things to see in this image",
    "url": "https://www.pinterest.com/pin/250372060531410152/"
   },
+  "250372060531428920": {
+   "categories": [
+    "dashboard"
+   ],
+   "collected": "2026-11-25",
+   "id": "250372060531428920",
+   "queries": [
+    "analytics dashboard ui 2026"
+   ],
+   "title": "an image of a website dashboard with progress and performance statistics on it's screen",
+   "url": "https://www.pinterest.com/pin/250372060531428920/"
+  },
   "250372060531434450": {
    "categories": [
     "food-delivery"
@@ -148340,7 +148541,8 @@
     "admin dashboard ui 2026",
     "chart ui design 2026",
     "finance dashboard ui 2026",
-    "web app interface design 2026"
+    "web app interface design 2026",
+    "analytics dashboard ui 2026"
    ],
    "title": "This contains an image of: HECHAM GAZHI® | UI/UX Designer on Instagram: \"Dashboard UI Design . . #uiux",
    "url": "https://www.pinterest.com/pin/250372060531607567/"
@@ -148469,16 +148671,30 @@
   },
   "250372060531819146": {
    "categories": [
-    "data-viz"
+    "data-viz",
+    "dashboard"
    ],
    "collected": "2026-11-25",
    "id": "250372060531819146",
    "queries": [
     "colorful data visualization ui 2026",
-    "data visualization ui 2026"
+    "data visualization ui 2026",
+    "analytics dashboard ui 2026"
    ],
    "title": "a bunch of different types of graphs and numbers on a white surface with blue accents",
    "url": "https://www.pinterest.com/pin/250372060531819146/"
+  },
+  "250372060531927343": {
+   "categories": [
+    "dashboard"
+   ],
+   "collected": "2026-11-25",
+   "id": "250372060531927343",
+   "queries": [
+    "analytics dashboard ui 2026"
+   ],
+   "title": "a computer screen displaying the cost of an app",
+   "url": "https://www.pinterest.com/pin/250372060531927343/"
   },
   "25051341672570972": {
    "categories": [
@@ -149862,13 +150078,15 @@
   "262053272064737855": {
    "categories": [
     "fintech",
-    "dark-mode"
+    "dark-mode",
+    "dashboard"
    ],
    "collected": "2026-11-17",
    "id": "262053272064737855",
    "queries": [
     "finance dashboard ui 2026",
-    "dark ui dashboard vibrant accents 2026"
+    "dark ui dashboard vibrant accents 2026",
+    "analytics dashboard ui 2026"
    ],
    "title": "This contains an image of:",
    "url": "https://www.pinterest.com/pin/262053272064737855/"
@@ -149930,7 +150148,8 @@
     "ai saas dashboard ui 2026",
     "colorful saas web app ui 2026",
     "admin dashboard ui 2026",
-    "colorful dashboard ui design 2026"
+    "colorful dashboard ui design 2026",
+    "analytics dashboard ui 2026"
    ],
    "title": "This contains an image of: Nexora Glassmorphism SaaS Dashboard | Dark Glass UI Design",
    "url": "https://www.pinterest.com/pin/262053272064817710/"
@@ -151530,6 +151749,18 @@
    "title": "This contains an image of: AI Chatbot UI Design",
    "url": "https://www.pinterest.com/pin/271060471319177514/"
   },
+  "271060471319236582": {
+   "categories": [
+    "dashboard"
+   ],
+   "collected": "2026-11-25",
+   "id": "271060471319236582",
+   "queries": [
+    "analytics dashboard ui 2026"
+   ],
+   "title": "the dashboard screen shows different types of business cards and their price ranges, including $ 1, 500 to $ 3, 000",
+   "url": "https://www.pinterest.com/pin/271060471319236582/"
+  },
   "271060471319243617": {
    "categories": [
     "color-palettes",
@@ -152873,13 +153104,15 @@
   "276197389645348531": {
    "categories": [
     "data-viz",
-    "saas-web-app"
+    "saas-web-app",
+    "dashboard"
    ],
    "collected": "2026-11-20",
    "id": "276197389645348531",
    "queries": [
     "colorful data visualization ui 2026",
-    "colorful saas web app ui 2026"
+    "colorful saas web app ui 2026",
+    "analytics dashboard ui 2026"
    ],
    "title": "This contains an image of: Privacy-first web analytics dashboard",
    "url": "https://www.pinterest.com/pin/276197389645348531/"
@@ -153299,6 +153532,30 @@
    ],
    "title": "the dashboard screen for a website with green and white graphics, including bar graphs, numbers, and other items",
    "url": "https://www.pinterest.com/pin/276197389645542708/"
+  },
+  "276197389645568580": {
+   "categories": [
+    "dashboard"
+   ],
+   "collected": "2026-11-25",
+   "id": "276197389645568580",
+   "queries": [
+    "analytics dashboard ui 2026"
+   ],
+   "title": "the dashboard screen for a website with green and white graphics, including bar graphs, numbers, and other items",
+   "url": "https://www.pinterest.com/pin/276197389645568580/"
+  },
+  "276197389645579363": {
+   "categories": [
+    "dashboard"
+   ],
+   "collected": "2026-11-25",
+   "id": "276197389645579363",
+   "queries": [
+    "analytics dashboard ui 2026"
+   ],
+   "title": "an image of a dashboard with graphs and other items on the screen, as well as people's data",
+   "url": "https://www.pinterest.com/pin/276197389645579363/"
   },
   "276267758378764521": {
    "categories": [
@@ -164549,7 +164806,8 @@
    "id": "35254809578543994",
    "queries": [
     "data visualization ui 2026",
-    "admin dashboard ui 2026"
+    "admin dashboard ui 2026",
+    "analytics dashboard ui 2026"
    ],
    "title": "an image of a dashboard showing people's profiles on the webpage, and other information about them",
    "url": "https://www.pinterest.com/pin/35254809578543994/"
@@ -165306,7 +165564,8 @@
     "dashboard ui design 2026",
     "colorful dashboard ui design 2026",
     "chart ui design 2026",
-    "admin dashboard ui 2026"
+    "admin dashboard ui 2026",
+    "analytics dashboard ui 2026"
    ],
    "title": "a computer monitor displaying the time and temperature",
    "url": "https://www.pinterest.com/pin/35254809579531937/"
@@ -169168,7 +169427,8 @@
     "mobile-app",
     "ai-chat",
     "saas-web-app",
-    "data-viz"
+    "data-viz",
+    "dashboard"
    ],
    "collected": "2026-11-14",
    "id": "375417318960265530",
@@ -169177,7 +169437,8 @@
     "mobile app ui design 2026",
     "ai assistant ui design 2026",
     "web app interface design 2026",
-    "data visualization ui 2026"
+    "data visualization ui 2026",
+    "analytics dashboard ui 2026"
    ],
    "title": "an app showing the time and weather for homeowners",
    "url": "https://www.pinterest.com/pin/375417318960265530/"
@@ -176640,7 +176901,8 @@
     "saas-web-app",
     "ecommerce",
     "ai-chat",
-    "color-palettes"
+    "color-palettes",
+    "dashboard"
    ],
    "collected": "2026-11-14",
    "id": "427419820905165290",
@@ -176651,7 +176913,8 @@
     "data visualization ui 2026",
     "product page ui design 2026",
     "ai saas dashboard ui 2026",
-    "gradient ui design 2026"
+    "gradient ui design 2026",
+    "analytics dashboard ui 2026"
    ],
    "title": "an image of a computer screen with the time displayed on it's display panel",
    "url": "https://www.pinterest.com/pin/427419820905165290/"
@@ -182253,7 +182516,8 @@
    "collected": "2026-11-15",
    "id": "4591912481604585856",
    "queries": [
-    "admin dashboard ui 2026"
+    "admin dashboard ui 2026",
+    "analytics dashboard ui 2026"
    ],
    "title": "an image of a dashboard screen with statistics",
    "url": "https://www.pinterest.com/pin/4591912481604585856/"
@@ -183178,7 +183442,8 @@
    "queries": [
     "colorful data visualization ui 2026",
     "colorful dashboard ui design 2026",
-    "data visualization ui 2026"
+    "data visualization ui 2026",
+    "analytics dashboard ui 2026"
    ],
    "title": "a solar panel is shown in the foreground with green grass and blue sky behind it",
    "url": "https://www.pinterest.com/pin/4593953220016779328/"
@@ -186355,7 +186620,8 @@
     "empty-states",
     "data-viz",
     "components",
-    "fintech"
+    "fintech",
+    "dashboard"
    ],
    "collected": "2026-11-14",
    "id": "4600990103495321216",
@@ -186366,7 +186632,8 @@
     "data visualization ui 2026",
     "ui components design system 2026",
     "finance dashboard ui 2026",
-    "ui card design 2026"
+    "ui card design 2026",
+    "analytics dashboard ui 2026"
    ],
    "title": "a bunch of screens that are on a wall with some text above them reading chart u100",
    "url": "https://www.pinterest.com/pin/4600990103495321216/"
@@ -192710,12 +192977,14 @@
   },
   "462604193000260711": {
    "categories": [
-    "fintech"
+    "fintech",
+    "dashboard"
    ],
    "collected": "2026-11-25",
    "id": "462604193000260711",
    "queries": [
-    "finance dashboard ui 2026"
+    "finance dashboard ui 2026",
+    "analytics dashboard ui 2026"
    ],
    "title": "finance dashboard UI shown on tablet, balance overview, payment calendar, subscription cards, payment summary panel ui ux ui/ux design app design",
    "url": "https://www.pinterest.com/pin/462604193000260711/"
@@ -212186,7 +212455,8 @@
     "mobile app ui design 2026",
     "ui card design 2026",
     "web app interface design 2026",
-    "saas web app ui 2026"
+    "saas web app ui 2026",
+    "analytics dashboard ui 2026"
    ],
    "title": "a computer screen with a line graph on it",
    "url": "https://www.pinterest.com/pin/588986457589610705/"
@@ -232659,7 +232929,8 @@
     "product page ui design 2026",
     "web app interface design 2026",
     "dashboard ui design 2026",
-    "admin dashboard ui 2026"
+    "admin dashboard ui 2026",
+    "analytics dashboard ui 2026"
    ],
    "title": "an image of a web page with lots of colors and numbers on the bottom right hand corner",
    "url": "https://www.pinterest.com/pin/672725263132466203/"
@@ -233412,7 +233683,8 @@
     "mobile app ui design 2026",
     "data visualization ui 2026",
     "gradient ui design 2026",
-    "fitness app ui design 2026"
+    "fitness app ui design 2026",
+    "analytics dashboard ui 2026"
    ],
    "title": "an iphone showing the temperature and other things to see in the screen, with text on it",
    "url": "https://www.pinterest.com/pin/676595544065490901/"
@@ -241633,6 +241905,18 @@
    ],
    "title": "E-commerce app screens with green sweater, yellow beanie and teal buttons on white",
    "url": "https://www.pinterest.com/pin/712905816062926430/"
+  },
+  "712905816062958273": {
+   "categories": [
+    "dashboard"
+   ],
+   "collected": "2026-11-25",
+   "id": "712905816062958273",
+   "queries": [
+    "analytics dashboard ui 2026"
+   ],
+   "title": "White analytics dashboard with lavender charts and a lavender gradient growth card",
+   "url": "https://www.pinterest.com/pin/712905816062958273/"
   },
   "712905816063121858": {
    "categories": [
@@ -254743,12 +255027,14 @@
   },
   "773352567312501393": {
    "categories": [
-    "crypto-web3"
+    "crypto-web3",
+    "dashboard"
    ],
    "collected": "2026-11-25",
    "id": "773352567312501393",
    "queries": [
-    "web3 dashboard ui 2026"
+    "web3 dashboard ui 2026",
+    "analytics dashboard ui 2026"
    ],
    "title": "the dashboard page for hub operations, with data displayed on it and an image of a wave",
    "url": "https://www.pinterest.com/pin/773352567312501393/"
@@ -273497,7 +273783,8 @@
     "fintech",
     "empty-states",
     "social",
-    "ai-chat"
+    "ai-chat",
+    "dashboard"
    ],
    "collected": "2026-11-14",
    "id": "861032022553422893",
@@ -273516,7 +273803,8 @@
     "web app interface design 2026",
     "error page ui design 2026",
     "social media app ui design 2026",
-    "ai saas dashboard ui 2026"
+    "ai saas dashboard ui 2026",
+    "analytics dashboard ui 2026"
    ],
    "title": "an image of a dashboard showing the number of people in front of trees and buildings",
    "url": "https://www.pinterest.com/pin/861032022553422893/"
@@ -278324,7 +278612,8 @@
     "b2b saas ui design 2026",
     "web3 dashboard ui 2026",
     "task management app ui 2026",
-    "ai saas dashboard ui 2026"
+    "ai saas dashboard ui 2026",
+    "analytics dashboard ui 2026"
    ],
    "title": "Full desktop browser window showing the Taski dashboard, project progress data table, and desktop dock.",
    "url": "https://www.pinterest.com/pin/875176140116755764/"
@@ -279551,7 +279840,8 @@
    "id": "879468633544257514",
    "queries": [
     "data visualization ui 2026",
-    "dashboard ui design 2026"
+    "dashboard ui design 2026",
+    "analytics dashboard ui 2026"
    ],
    "title": "an open laptop computer sitting on top of a metal table next to a sign that says fresh shot",
    "url": "https://www.pinterest.com/pin/879468633544257514/"
@@ -287568,7 +287858,8 @@
     "mobile-app",
     "bento-grid",
     "social",
-    "wearables"
+    "wearables",
+    "dashboard"
    ],
    "collected": "2026-11-14",
    "id": "894597913511159450",
@@ -287594,7 +287885,8 @@
     "colorful bento grid ui design 2026",
     "chat messaging app ui 2026",
     "smart home app ui 2026",
-    "data visualization ui 2026"
+    "data visualization ui 2026",
+    "analytics dashboard ui 2026"
    ],
    "title": "two screens showing the same amount of data on each screen and numbers in different colors",
    "url": "https://www.pinterest.com/pin/894597913511159450/"
@@ -296239,7 +296531,8 @@
     "onboarding-auth",
     "real-estate",
     "fintech",
-    "landing-page"
+    "landing-page",
+    "dashboard"
    ],
    "collected": "2026-11-15",
    "id": "926052742136484460",
@@ -296252,7 +296545,8 @@
     "ui animation 2026",
     "banking app ui design 2026",
     "finance dashboard ui 2026",
-    "saas landing page 2026"
+    "saas landing page 2026",
+    "analytics dashboard ui 2026"
    ],
    "title": "Fully responsive on all devices Lightning-fast loading speed 📦 What’s Included: Home Page – Showcase your product with a stunning hero section Features Page – Highlight benefits and comparisons About Page – Share your mi",
    "url": "https://www.pinterest.com/pin/926052742136484460/"
@@ -297833,13 +298127,15 @@
   "930204498056451904": {
    "categories": [
     "fintech",
-    "saas-web-app"
+    "saas-web-app",
+    "dashboard"
    ],
    "collected": "2026-11-16",
    "id": "930204498056451904",
    "queries": [
     "finance dashboard ui 2026",
-    "b2b saas ui design 2026"
+    "b2b saas ui design 2026",
+    "analytics dashboard ui 2026"
    ],
    "title": "A tilted desktop monitor showing a wallet dashboard with a gradient card, spending chart, card list, and a recent transactions table.",
    "url": "https://www.pinterest.com/pin/930204498056451904/"
@@ -301544,7 +301840,8 @@
    "collected": "2026-11-23",
    "id": "940830178427963995",
    "queries": [
-    "admin dashboard ui 2026"
+    "admin dashboard ui 2026",
+    "analytics dashboard ui 2026"
    ],
    "title": "an image of a dashboard with the time displayed on it and clouds in the background",
    "url": "https://www.pinterest.com/pin/940830178427963995/"
@@ -302731,13 +303028,15 @@
   "944137509406726028": {
    "categories": [
     "dark-mode",
-    "crypto-web3"
+    "crypto-web3",
+    "dashboard"
    ],
    "collected": "2026-11-23",
    "id": "944137509406726028",
    "queries": [
     "dark ui dashboard vibrant accents 2026",
-    "web3 dashboard ui 2026"
+    "web3 dashboard ui 2026",
+    "analytics dashboard ui 2026"
    ],
    "title": "the dashboard is displaying data and other important things to do with your smartphone or tablet",
    "url": "https://www.pinterest.com/pin/944137509406726028/"
@@ -317484,7 +317783,8 @@
     "dashboard ui design 2026",
     "ai saas dashboard ui 2026",
     "admin dashboard ui 2026",
-    "colorful dashboard ui design 2026"
+    "colorful dashboard ui design 2026",
+    "analytics dashboard ui 2026"
    ],
    "title": "This contains an image of: SaaS Wellness Dashboard UI | Habit Tracker & Personal Analytics Design inspiration",
    "url": "https://www.pinterest.com/pin/996491855074559805/"
