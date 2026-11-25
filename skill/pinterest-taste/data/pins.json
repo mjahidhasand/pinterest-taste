@@ -310,7 +310,8 @@
     "ecommerce",
     "forms-settings",
     "mobile-app",
-    "pricing"
+    "pricing",
+    "empty-states"
    ],
    "collected": "2026-11-21",
    "id": "1001206560934123499",
@@ -322,7 +323,8 @@
     "colorful settings page ui design 2026",
     "ios app ui 2026",
     "colorful mobile app ui design 2026",
-    "colorful pricing page ui design 2026"
+    "colorful pricing page ui design 2026",
+    "colorful empty state ui design 2026"
    ],
    "title": "an iphone screen with the app on it's left side, and a blurry image of flowers in the background",
    "url": "https://www.pinterest.com/pin/1001206560934123499/"
@@ -887,6 +889,18 @@
    "title": "an image of a man's daily activity on the app for his iphone or tablet",
    "url": "https://www.pinterest.com/pin/1004513891896532574/"
   },
+  "1004513891899167339": {
+   "categories": [
+    "empty-states"
+   ],
+   "collected": "2026-11-25",
+   "id": "1004513891899167339",
+   "queries": [
+    "colorful empty state ui design 2026"
+   ],
+   "title": "the app is showing an image of a fish in a bowl with buttons on it",
+   "url": "https://www.pinterest.com/pin/1004513891899167339/"
+  },
   "1004513891910127447": {
    "categories": [
     "forms-settings"
@@ -1200,7 +1214,8 @@
     "micro-interactions",
     "forms-settings",
     "dark-mode",
-    "onboarding-auth"
+    "onboarding-auth",
+    "empty-states"
    ],
    "collected": "2026-11-14",
    "id": "1006132373021861979",
@@ -1209,7 +1224,8 @@
     "colorful micro interactions ui 2026",
     "colorful settings page ui design 2026",
     "colorful dark mode ui 2026",
-    "colorful onboarding screens ui 2026"
+    "colorful onboarding screens ui 2026",
+    "colorful empty state ui design 2026"
    ],
    "title": "Perfect inspiration for UI/UX designers, Figma users, app designers, and web interface creators looking for modern weather app concepts.",
    "url": "https://www.pinterest.com/pin/1006132373021861979/"
@@ -11003,7 +11019,8 @@
    "collected": "2026-11-14",
    "id": "1038572364076860205",
    "queries": [
-    "empty state ui design 2026"
+    "empty state ui design 2026",
+    "colorful empty state ui design 2026"
    ],
    "title": "two screens showing different stickers on the same screen, one with an image of a person holding a piece of paper",
    "url": "https://www.pinterest.com/pin/1038572364076860205/"
@@ -14550,13 +14567,15 @@
   "1048775831995769625": {
    "categories": [
     "forms-settings",
-    "components"
+    "components",
+    "empty-states"
    ],
    "collected": "2026-11-22",
    "id": "1048775831995769625",
    "queries": [
     "colorful settings page ui design 2026",
-    "button ui design 2026"
+    "button ui design 2026",
+    "colorful empty state ui design 2026"
    ],
    "title": "icon design, ui design",
    "url": "https://www.pinterest.com/pin/1048775831995769625/"
@@ -51091,13 +51110,15 @@
   "1097400634229256766": {
    "categories": [
     "data-viz",
-    "micro-interactions"
+    "micro-interactions",
+    "empty-states"
    ],
    "collected": "2026-11-14",
    "id": "1097400634229256766",
    "queries": [
     "colorful data visualization ui 2026",
-    "colorful micro interactions ui 2026"
+    "colorful micro interactions ui 2026",
+    "colorful empty state ui design 2026"
    ],
    "title": "an iphone screen with the text, i will eat 4 fruits every morning so that i can become a healthy person",
    "url": "https://www.pinterest.com/pin/1097400634229256766/"
@@ -57548,13 +57569,15 @@
   "1101059809023205275": {
    "categories": [
     "forms-settings",
-    "crypto-web3"
+    "crypto-web3",
+    "empty-states"
    ],
    "collected": "2026-11-19",
    "id": "1101059809023205275",
    "queries": [
     "checkout ui design 2026",
-    "colorful crypto wallet app ui 2026"
+    "colorful crypto wallet app ui 2026",
+    "colorful empty state ui design 2026"
    ],
    "title": "the app is showing people who are paying for $ 2, 000",
    "url": "https://www.pinterest.com/pin/1101059809023205275/"
@@ -69164,7 +69187,8 @@
     "social",
     "micro-interactions",
     "ai-chat",
-    "education"
+    "education",
+    "empty-states"
    ],
    "collected": "2026-11-18",
    "id": "1108378158348706412",
@@ -69176,7 +69200,8 @@
     "social media app ui design 2026",
     "colorful ai chat app ui 2026",
     "colorful education app ui design 2026",
-    "chat messaging app ui 2026"
+    "chat messaging app ui 2026",
+    "colorful empty state ui design 2026"
    ],
    "title": "a cell phone with the words happy on it's screen and an emoticive smiley face",
    "url": "https://www.pinterest.com/pin/1108378158348706412/"
@@ -109391,7 +109416,8 @@
     "typography web design 2026",
     "empty state ui design 2026",
     "colorful typography web design 2026",
-    "micro interactions ui 2026"
+    "micro interactions ui 2026",
+    "colorful empty state ui design 2026"
    ],
    "title": "the text are you a on a blurry green background",
    "url": "https://www.pinterest.com/pin/1132373900083525385/"
@@ -119144,12 +119170,14 @@
   },
   "1142084786772690120": {
    "categories": [
-    "onboarding-auth"
+    "onboarding-auth",
+    "empty-states"
    ],
    "collected": "2026-11-15",
    "id": "1142084786772690120",
    "queries": [
-    "colorful onboarding screens ui 2026"
+    "colorful onboarding screens ui 2026",
+    "colorful empty state ui design 2026"
    ],
    "title": "an image of a phone screen with the text nice work on it and a smiley face",
    "url": "https://www.pinterest.com/pin/1142084786772690120/"
@@ -127802,7 +127830,8 @@
     "social",
     "micro-interactions",
     "mobile-app",
-    "bento-grid"
+    "bento-grid",
+    "empty-states"
    ],
    "collected": "2026-11-22",
    "id": "1146377280185845910",
@@ -127812,7 +127841,8 @@
     "colorful social media app ui design 2026",
     "colorful micro interactions ui 2026",
     "colorful mobile app ui design 2026",
-    "colorful bento grid ui design 2026"
+    "colorful bento grid ui design 2026",
+    "colorful empty state ui design 2026"
    ],
    "title": "a poster with different types of logos on it's sides and the names of each product",
    "url": "https://www.pinterest.com/pin/1146377280185845910/"
@@ -132070,7 +132100,8 @@
     "color-palettes",
     "forms-settings",
     "saas-web-app",
-    "onboarding-auth"
+    "onboarding-auth",
+    "empty-states"
    ],
    "collected": "2026-11-14",
    "id": "1148277236260458579",
@@ -132083,7 +132114,8 @@
     "gradient ui design 2026",
     "colorful settings page ui design 2026",
     "b2b saas ui design 2026",
-    "colorful onboarding screens ui 2026"
+    "colorful onboarding screens ui 2026",
+    "colorful empty state ui design 2026"
    ],
    "title": "the landing page is designed to look like an appliance with different colors and shapes",
    "url": "https://www.pinterest.com/pin/1148277236260458579/"
@@ -138442,7 +138474,8 @@
    "collected": "2026-11-14",
    "id": "13792342595528319",
    "queries": [
-    "empty state ui design 2026"
+    "empty state ui design 2026",
+    "colorful empty state ui design 2026"
    ],
    "title": "three boxes with faces drawn on them and the caption says empty state, economy",
    "url": "https://www.pinterest.com/pin/13792342595528319/"
@@ -142156,7 +142189,8 @@
    "collected": "2026-11-23",
    "id": "200058408443663960",
    "queries": [
-    "empty state ui design 2026"
+    "empty state ui design 2026",
+    "colorful empty state ui design 2026"
    ],
    "title": "the blue icons are displayed in different styles",
    "url": "https://www.pinterest.com/pin/200058408443663960/"
@@ -148399,7 +148433,8 @@
    "collected": "2026-11-14",
    "id": "255720085067184238",
    "queries": [
-    "empty state ui design 2026"
+    "empty state ui design 2026",
+    "colorful empty state ui design 2026"
    ],
    "title": "an open box with a butterfly coming out of it and some bubbles in the air",
    "url": "https://www.pinterest.com/pin/255720085067184238/"
@@ -156563,7 +156598,8 @@
    "collected": "2026-11-14",
    "id": "311381761736556643",
    "queries": [
-    "empty state ui design 2026"
+    "empty state ui design 2026",
+    "colorful empty state ui design 2026"
    ],
    "title": "two mobile screens showing the order history and no order ticket options for each item on their app",
    "url": "https://www.pinterest.com/pin/311381761736556643/"
@@ -158855,6 +158891,18 @@
    "title": "an iphone screen with the text get discovered connect with fans grow your show on it",
    "url": "https://www.pinterest.com/pin/331296116356363919/"
   },
+  "331296116357607439": {
+   "categories": [
+    "empty-states"
+   ],
+   "collected": "2026-11-25",
+   "id": "331296116357607439",
+   "queries": [
+    "colorful empty state ui design 2026"
+   ],
+   "title": "an email message that reads, hi there do you already have an account with headspace care or ginger?",
+   "url": "https://www.pinterest.com/pin/331296116357607439/"
+  },
   "331296116358180796": {
    "categories": [
     "empty-states"
@@ -159425,7 +159473,8 @@
     "micro-interactions",
     "social",
     "dark-mode",
-    "color-palettes"
+    "color-palettes",
+    "empty-states"
    ],
    "collected": "2026-11-14",
    "id": "333829391149566826",
@@ -159435,7 +159484,8 @@
     "ai assistant ui design 2026",
     "chat messaging app ui 2026",
     "colorful dark mode ui 2026",
-    "gradient ui design 2026"
+    "gradient ui design 2026",
+    "colorful empty state ui design 2026"
    ],
    "title": "an iphone screen with the message write down your email phrase and then click on it",
    "url": "https://www.pinterest.com/pin/333829391149566826/"
@@ -161152,7 +161202,8 @@
    "collected": "2026-11-23",
    "id": "346073552596580112",
    "queries": [
-    "empty state ui design 2026"
+    "empty state ui design 2026",
+    "colorful empty state ui design 2026"
    ],
    "title": "three screens showing different types of messages on the same screen, one with no message",
    "url": "https://www.pinterest.com/pin/346073552596580112/"
@@ -172862,6 +172913,18 @@
    "title": "This contains an image of: SaaS Dashboard Sidebar Billing Page Design | Made in Figma",
    "url": "https://www.pinterest.com/pin/405886985190004396/"
   },
+  "406027722674632265": {
+   "categories": [
+    "empty-states"
+   ],
+   "collected": "2026-11-25",
+   "id": "406027722674632265",
+   "queries": [
+    "colorful empty state ui design 2026"
+   ],
+   "title": "a screen shot of an email form with the message'no records of events yet please check back later '",
+   "url": "https://www.pinterest.com/pin/406027722674632265/"
+  },
   "406520303889051266": {
    "categories": [
     "travel-booking"
@@ -178406,7 +178469,8 @@
     "social",
     "fintech",
     "saas-web-app",
-    "travel-booking"
+    "travel-booking",
+    "empty-states"
    ],
    "collected": "2026-11-15",
    "id": "446419381836040778",
@@ -178421,7 +178485,8 @@
     "colorful saas web app ui 2026",
     "colorful education app ui design 2026",
     "colorful 3d illustration ui app 2026",
-    "booking app ui 2026"
+    "booking app ui 2026",
+    "colorful empty state ui design 2026"
    ],
    "title": "an advertisement for the mobile phone company, which has been launched in russian and english",
    "url": "https://www.pinterest.com/pin/446419381836040778/"
@@ -180343,6 +180408,18 @@
    ],
    "title": "an iphone with the text recent work on it, next to some rocks and a rock",
    "url": "https://www.pinterest.com/pin/453385887506309229/"
+  },
+  "453456256235253708": {
+   "categories": [
+    "empty-states"
+   ],
+   "collected": "2026-11-25",
+   "id": "453456256235253708",
+   "queries": [
+    "colorful empty state ui design 2026"
+   ],
+   "title": "two smartphones with no image yet on them, one showing the same color scheme",
+   "url": "https://www.pinterest.com/pin/453456256235253708/"
   },
   "453456256235253725": {
    "categories": [
@@ -187708,6 +187785,18 @@
    "title": "This contains an image of: 2X Smartwatch Huawei Watch D2 Amoled Bt Nfc",
    "url": "https://www.pinterest.com/pin/4605634419723181632/"
   },
+  "4605634437203132736": {
+   "categories": [
+    "empty-states"
+   ],
+   "collected": "2026-11-25",
+   "id": "4605634437203132736",
+   "queries": [
+    "colorful empty state ui design 2026"
+   ],
+   "title": "the full color sticker sheet is shown with different designs on it, including letters and numbers",
+   "url": "https://www.pinterest.com/pin/4605634437203132736/"
+  },
   "4605634443274851904": {
    "categories": [
     "travel-booking"
@@ -191541,6 +191630,18 @@
    ],
    "title": "CRM migration desktop app UI showing field mapping screen, source data folders, destination fields focused on app design, UI UX and dashboard usability",
    "url": "https://www.pinterest.com/pin/462604193000114038/"
+  },
+  "462604193000122358": {
+   "categories": [
+    "empty-states"
+   ],
+   "collected": "2026-11-25",
+   "id": "462604193000122358",
+   "queries": [
+    "colorful empty state ui design 2026"
+   ],
+   "title": "CRM migration app UI close-up showing file type cards, spreadsheet and database icons, delete action focused on app design, UI UX and mobile app usability",
+   "url": "https://www.pinterest.com/pin/462604193000122358/"
   },
   "462604193000130371": {
    "categories": [
@@ -203955,6 +204056,18 @@
    "title": "an image of a computer screen with people on the web page and numbers in different languages",
    "url": "https://www.pinterest.com/pin/547680004700350466/"
   },
+  "547750373440660901": {
+   "categories": [
+    "empty-states"
+   ],
+   "collected": "2026-11-25",
+   "id": "547750373440660901",
+   "queries": [
+    "colorful empty state ui design 2026"
+   ],
+   "title": "two screens showing how to set up an inbox and what to use the email",
+   "url": "https://www.pinterest.com/pin/547750373440660901/"
+  },
   "547750373450835428": {
    "categories": [
     "typography"
@@ -205061,6 +205174,30 @@
    ],
    "title": "a man standing in front of a calendar with the words no schedules found on it",
    "url": "https://www.pinterest.com/pin/555350197811193604/"
+  },
+  "555350197811193838": {
+   "categories": [
+    "empty-states"
+   ],
+   "collected": "2026-11-25",
+   "id": "555350197811193838",
+   "queries": [
+    "colorful empty state ui design 2026"
+   ],
+   "title": "an image of a web page with many different things in the bottom right hand corner",
+   "url": "https://www.pinterest.com/pin/555350197811193838/"
+  },
+  "555350197811194007": {
+   "categories": [
+    "empty-states"
+   ],
+   "collected": "2026-11-25",
+   "id": "555350197811194007",
+   "queries": [
+    "colorful empty state ui design 2026"
+   ],
+   "title": "a bunch of screens with different icons on them",
+   "url": "https://www.pinterest.com/pin/555350197811194007/"
   },
   "555350197811194045": {
    "categories": [
@@ -206509,12 +206646,14 @@
   },
   "565835140693223809": {
    "categories": [
-    "social"
+    "social",
+    "empty-states"
    ],
    "collected": "2026-11-22",
    "id": "565835140693223809",
    "queries": [
-    "chat messaging app ui 2026"
+    "chat messaging app ui 2026",
+    "colorful empty state ui design 2026"
    ],
    "title": "an iphone screen showing the texting options for chats and what to do with them",
    "url": "https://www.pinterest.com/pin/565835140693223809/"
@@ -209286,7 +209425,8 @@
    "collected": "2026-11-14",
    "id": "580753314423141402",
    "queries": [
-    "empty state ui design 2026"
+    "empty state ui design 2026",
+    "colorful empty state ui design 2026"
    ],
    "title": "four screens showing different types of web design",
    "url": "https://www.pinterest.com/pin/580753314423141402/"
@@ -215919,7 +216059,8 @@
     "illustration-3d",
     "components",
     "crypto-web3",
-    "micro-interactions"
+    "micro-interactions",
+    "empty-states"
    ],
    "collected": "2026-11-14",
    "id": "606086062402484527",
@@ -215940,7 +216081,8 @@
     "ui card design 2026",
     "colorful crypto wallet app ui 2026",
     "ios app ui 2026",
-    "colorful micro interactions ui 2026"
+    "colorful micro interactions ui 2026",
+    "colorful empty state ui design 2026"
    ],
    "title": "an iphone with a ticket on it is flying through the air over a mountain top",
    "url": "https://www.pinterest.com/pin/606086062402484527/"
@@ -240054,7 +240196,8 @@
    "collected": "2026-11-23",
    "id": "712694709799942420",
    "queries": [
-    "empty state ui design 2026"
+    "empty state ui design 2026",
+    "colorful empty state ui design 2026"
    ],
    "title": "an iphone screen with chinese text on it and a cartoon character in the middle of the screen",
    "url": "https://www.pinterest.com/pin/712694709799942420/"
@@ -240923,7 +241066,8 @@
    "collected": "2026-11-14",
    "id": "715931672018356186",
    "queries": [
-    "empty state ui design 2026"
+    "empty state ui design 2026",
+    "colorful empty state ui design 2026"
    ],
    "title": "four square icons with the words empty state and an umbrella above them on a green background",
    "url": "https://www.pinterest.com/pin/715931672018356186/"
@@ -254089,6 +254233,18 @@
    "title": "two iphone screens showing student application on the screen and an image of students in class",
    "url": "https://www.pinterest.com/pin/776730267025345296/"
   },
+  "776730267034477916": {
+   "categories": [
+    "empty-states"
+   ],
+   "collected": "2026-11-25",
+   "id": "776730267034477916",
+   "queries": [
+    "colorful empty state ui design 2026"
+   ],
+   "title": "Set of six 3D glossy error state icons in orange and navy gradient style: invoice with a credit card and an X mark, chat bubble icon with a toggle switch and an X, wrapped gift box with an X mark, phone with a locked use",
+   "url": "https://www.pinterest.com/pin/776730267034477916/"
+  },
   "776800635772331741": {
    "categories": [
     "typography"
@@ -260365,7 +260521,8 @@
     "saas-web-app",
     "color-palettes",
     "illustration-3d",
-    "typography"
+    "typography",
+    "empty-states"
    ],
    "collected": "2026-11-14",
    "id": "80994493295041537",
@@ -260382,7 +260539,8 @@
     "ui color palette 2026",
     "app color palette 2026",
     "colorful typography web design 2026",
-    "gradient ui design 2026"
+    "gradient ui design 2026",
+    "colorful empty state ui design 2026"
    ],
    "title": "an image of different colored buttons with the words'product & design'in english and chinese",
    "url": "https://www.pinterest.com/pin/80994493295041537/"
@@ -272128,7 +272286,8 @@
    "collected": "2026-11-23",
    "id": "861102391279790484",
    "queries": [
-    "empty state ui design 2026"
+    "empty state ui design 2026",
+    "colorful empty state ui design 2026"
    ],
    "title": "an image of a black background with white text",
    "url": "https://www.pinterest.com/pin/861102391279790484/"
@@ -276416,12 +276575,14 @@
   },
   "875176140113416648": {
    "categories": [
-    "saas-web-app"
+    "saas-web-app",
+    "empty-states"
    ],
    "collected": "2026-11-14",
    "id": "875176140113416648",
    "queries": [
-    "colorful saas web app ui 2026"
+    "colorful saas web app ui 2026",
+    "colorful empty state ui design 2026"
    ],
    "title": "a blue card with the words, everything you need to stay on track",
    "url": "https://www.pinterest.com/pin/875176140113416648/"
@@ -280642,7 +280803,8 @@
     "media-music",
     "travel-booking",
     "micro-interactions",
-    "social"
+    "social",
+    "empty-states"
    ],
    "collected": "2026-11-14",
    "id": "887983251551216423",
@@ -280651,7 +280813,8 @@
     "podcast app ui 2026",
     "colorful travel app ui design 2026",
     "colorful micro interactions ui 2026",
-    "chat messaging app ui 2026"
+    "chat messaging app ui 2026",
+    "colorful empty state ui design 2026"
    ],
    "title": "Animation bits and experimentations by @madrooom - WhatsApp campaign with @hueso.co —— See your work featured? Engage and be observed. ———————————————————————————— Submit your work - link bio / Use Tag #unbserved ———————",
    "url": "https://www.pinterest.com/pin/887983251551216423/"
@@ -296917,6 +297080,18 @@
    "title": "Multiple colorful eventbrite app icons displayed on a phone screen, developed as branding and logo design for tech platform campaigns.",
    "url": "https://www.pinterest.com/pin/932597035349604870/"
   },
+  "932597035349810195": {
+   "categories": [
+    "empty-states"
+   ],
+   "collected": "2026-11-25",
+   "id": "932597035349810195",
+   "queries": [
+    "colorful empty state ui design 2026"
+   ],
+   "title": "Big news for your big news. 🚀 We partnered with @LinkedIn to give their celebration illustrations a total glow-up. Now with 16 new animations to choose from, every post about a new job, education milestone, or anniversar",
+   "url": "https://www.pinterest.com/pin/932597035349810195/"
+  },
   "932597035350274698": {
    "categories": [
     "micro-interactions",
@@ -297254,7 +297429,8 @@
     "micro-interactions",
     "crypto-web3",
     "forms-settings",
-    "real-estate"
+    "real-estate",
+    "empty-states"
    ],
    "collected": "2026-11-14",
    "id": "933230354041471590",
@@ -297266,7 +297442,8 @@
     "checkout ui design 2026",
     "crypto wallet app ui 2026",
     "real estate app ui 2026",
-    "ui animation 2026"
+    "ui animation 2026",
+    "colorful empty state ui design 2026"
    ],
    "title": "an image of a phone with the pay bill displayed on it's display screen",
    "url": "https://www.pinterest.com/pin/933230354041471590/"
